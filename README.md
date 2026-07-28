@@ -285,8 +285,14 @@ SIN6833,,충남 청년정책 전국에서 검색된다,충남청년포털과 ‘
 
 | 대상 | 주소 | 이유 |
 |---|---|---|
-| 카드 이미지 | `raw.githubusercontent.com/…` | PNG는 raw로 정상 서빙됨 |
-| 링크 페이지 | `<user>.github.io/<repo>/linkinbio/` | **HTML은 raw로 안 됨** |
+| 카드 이미지 | `raw.githubusercontent.com/socialimpactnews/socialimpactnews.github.io/main/…` | PNG는 raw로 정상 서빙됨 |
+| 링크 페이지 | `https://socialimpactnews.github.io` | **HTML은 raw로 안 됨** |
+
+저장소 이름을 `<조직명>.github.io`로 두면 Pages가 저장소 루트를 도메인 루트로 서빙해
+경로도 개인 아이디도 주소에 남지 않습니다. Pages를 따로 켤 필요도 없습니다.
+
+페이지는 최상위와 **옛 경로 `/linkinbio/` 두 곳에 함께** 생성됩니다. 프로필 바이오에 한 번 나간
+주소는 회수할 수 없으므로, 페이지 위치를 옮기더라도 옛 주소가 404가 되면 안 되기 때문입니다.
 
 raw는 HTML을 `content-type: text/plain` + `x-content-type-options: nosniff`로 내보내서, 브라우저가
 웹페이지로 렌더링하지 않고 소스를 글자로 보여줍니다. 그래서 링크 페이지만 GitHub Pages로 서빙합니다.

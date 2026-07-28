@@ -160,6 +160,16 @@ def write_page(settings: Settings, store: Store, out_dir: Optional[Path] = None)
         page.write_text(build_page(entries, settings), encoding="utf-8")
         if settings.logo_path.exists():
             (out_dir / "logo.png").write_bytes(settings.logo_path.read_bytes())
+
+        # 예전에 쓰던 /linkinbio/ 경로도 같은 내용으로 함께 만든다.
+        # 프로필 바이오에 걸어둔 주소는 한 번 나가면 회수할 수 없으므로,
+        # 페이지 위치를 옮기더라도 옛 주소가 404가 되면 안 된다.
+        legacy = out_dir / "linkinbio"
+        legacy.mkdir(parents=True, exist_ok=True)
+        (legacy / "index.html").write_text(build_page(entries, settings), encoding="utf-8")
+        if settings.logo_path.exists():
+            (legacy / "logo.png").write_bytes(settings.logo_path.read_bytes())
+
         log.info("링크인바이오 페이지 갱신: %s (기사 %d건)", page, len(entries))
         return page
     except OSError as exc:
