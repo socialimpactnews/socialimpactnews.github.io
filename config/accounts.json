@@ -139,6 +139,16 @@
         "주식회사 임팩토리얼"
       ],
       "source": "운영자 확인"
+    },
+    {
+      "name": "지리산이음",
+      "handle": "jirisaneum",
+      "kind": "org",
+      "aliases": [
+        "빈고",
+        "공동체은행 빈고"
+      ],
+      "source": "https://www.instagram.com/jirisaneum/"
     }
   ]
 }

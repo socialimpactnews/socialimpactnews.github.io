@@ -86,7 +86,12 @@ class OverrideBook:
                 kicker, sep, text = spec.partition("::")
                 if not sep:
                     kicker, text = DEFAULT_KICKERS[i % len(DEFAULT_KICKERS)], spec
-                text = _clip_sentence(text.strip(), MAX_CARD_BODY)
+                text = text.replace("\\n", "\n").strip()
+                if "\n" in text and len(text) <= MAX_CARD_BODY:
+                    # 지정한 줄바꿈을 지켜야 하므로 공백을 정리하지 않는다.
+                    pass
+                else:
+                    text = _clip_sentence(text.replace("\n", " "), MAX_CARD_BODY)
                 bodies.append(Card(
                     kind="body",
                     title=_clip_phrase(kicker.strip(), MAX_KICKER),
