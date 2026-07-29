@@ -1,0 +1,60 @@
+{
+  "run_id": "run-20260729-095321",
+  "status": "success",
+  "mode": "dry-run",
+  "source": "csv",
+  "started_at": "2026-07-29T09:53:21+09:00",
+  "collected": 2,
+  "skipped_duplicate": 0,
+  "processed": 2,
+  "published": 0,
+  "failed": 0,
+  "error": null,
+  "items": [
+    {
+      "article_url": "https://www.socialimpactnews.net/news/articleView.html?idxno=6904",
+      "status": "dry_run",
+      "media_id": null,
+      "permalink": null,
+      "detail": "카드 6장 생성, 계정 태그 0건 예정, 실제 발행 생략",
+      "title": "\"산불 피했더니 물난리\"… 더프라미스, 안동 팽목마을에 '재난 컨시어지' 지원",
+      "headline": "산불 피했더니 물난리",
+      "cards": 6
+    },
+    {
+      "article_url": "https://www.socialimpactnews.net/news/articleView.html?idxno=6893",
+      "status": "dry_run",
+      "media_id": null,
+      "permalink": null,
+      "detail": "카드 6장 생성, 계정 태그 0건 예정, 실제 발행 생략",
+      "title": "나눔비타민, 울산 3개 기관과 손잡고 이주배경 아동·청소년 식사 지원 나선다",
+      "headline": "이주배경 아동에게\n디지털 식사권",
+      "cards": 6
+    }
+  ],
+  "unmatched_entities": [
+    "‘마음이 든든한끼",
+    "가족센터",
+    "나눔비타민",
+    "나비얌",
+    "리부트 울산",
+    "묘장",
+    "사단법인",
+    "울산남구가족센터",
+    "울산동구가족센터",
+    "이용희",
+    "재난 컨시어지",
+    "재난 컨시어지(Concierge)"
+  ],
+  "resolved_accounts": [],
+  "overridden": [
+    "SIN6904",
+    "SIN6893"
+  ],
+  "linkinbio_page": "/Users/yg/소셜임팩트뉴스 인스타그램 자동화 업로드/out/index.html",
+  "warnings": [
+    "ANTHROPIC_API_KEY가 없어 폴백 요약으로 실행했습니다. 기사에 있는 사실만 커버로 끌어올리므로 모집·공모 기사 외에는 헤드라인이 기사 제목에 가깝습니다."
+  ],
+  "out_dir": "/Users/yg/소셜임팩트뉴스 인스타그램 자동화 업로드/out/run-20260729-095321",
+  "exit_code": 0
+}
