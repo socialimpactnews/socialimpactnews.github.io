@@ -1,0 +1,60 @@
+{
+  "run_id": "run-20260729-095742",
+  "status": "success",
+  "mode": "dry-run",
+  "source": "csv",
+  "started_at": "2026-07-29T09:57:42+09:00",
+  "collected": 2,
+  "skipped_duplicate": 0,
+  "processed": 2,
+  "published": 0,
+  "failed": 0,
+  "error": null,
+  "items": [
+    {
+      "article_url": "https://www.socialimpactnews.net/news/articleView.html?idxno=6902",
+      "status": "dry_run",
+      "media_id": null,
+      "permalink": null,
+      "detail": "카드 6장 생성, 계정 태그 0건 예정, 실제 발행 생략",
+      "title": "서울시공익활동지원센터, 시민 공익활동 커뮤니티 '당신 옆의 공익활동' 참여자 모집",
+      "headline": "공익활동 참여자 모집,\n8월 3일까지",
+      "cards": 6
+    },
+    {
+      "article_url": "https://www.socialimpactnews.net/news/articleView.html?idxno=6900",
+      "status": "dry_run",
+      "media_id": null,
+      "permalink": null,
+      "detail": "카드 6장 생성, 계정 태그 0건 예정, 실제 발행 생략",
+      "title": "“지역은 뛰는데 국회는 멈춰”...사회연대경제계, 기본법 통과 촉구",
+      "headline": "12년째 국회 문턱 앞",
+      "cards": 6
+    }
+  ],
+  "unmatched_entities": [
+    "박승배",
+    "법제사법위원회",
+    "사단법인",
+    "사회적경제활성화전국네트워크",
+    "사회적협동조합",
+    "상임",
+    "서울시공익활동지원센터",
+    "제주사회적경제네트워크",
+    "학습조직형",
+    "한국자활기업협회",
+    "행정안전위원회",
+    "활동조직형"
+  ],
+  "resolved_accounts": [],
+  "overridden": [
+    "SIN6902",
+    "SIN6900"
+  ],
+  "linkinbio_page": "/Users/yg/소셜임팩트뉴스 인스타그램 자동화 업로드/out/index.html",
+  "warnings": [
+    "ANTHROPIC_API_KEY가 없어 폴백 요약으로 실행했습니다. 기사에 있는 사실만 커버로 끌어올리므로 모집·공모 기사 외에는 헤드라인이 기사 제목에 가깝습니다."
+  ],
+  "out_dir": "/Users/yg/소셜임팩트뉴스 인스타그램 자동화 업로드/out/run-20260729-095742",
+  "exit_code": 0
+}
