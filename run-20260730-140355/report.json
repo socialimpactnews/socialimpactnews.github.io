@@ -1,0 +1,64 @@
+{
+  "run_id": "run-20260730-140355",
+  "status": "success",
+  "mode": "dry-run",
+  "source": "csv",
+  "started_at": "2026-07-30T14:03:56+09:00",
+  "collected": 2,
+  "skipped_duplicate": 0,
+  "processed": 2,
+  "published": 0,
+  "failed": 0,
+  "error": null,
+  "items": [
+    {
+      "article_url": "https://www.socialimpactnews.net/news/articleView.html?idxno=6913",
+      "status": "dry_run",
+      "media_id": null,
+      "permalink": null,
+      "detail": "카드 6장 생성, 계정 태그 0건 예정, 실제 발행 생략",
+      "title": "[현장] 책에서 현장으로, ‘사회연대경제’의 의미를 다시 묻다",
+      "headline": "내가 사회적경제를 안다고\n말할 수 있을까?",
+      "cards": 6
+    },
+    {
+      "article_url": "https://www.socialimpactnews.net/news/articleView.html?idxno=6916",
+      "status": "dry_run",
+      "media_id": null,
+      "permalink": null,
+      "detail": "카드 6장 생성, 계정 태그 1건 예정, 실제 발행 생략",
+      "title": "농사가 아니라 ‘지속가능한 삶’을 짓습니다… 나뭇잎 모양 밭에 전국의 사람들을 불러모은 농부",
+      "headline": "농사를 사내벤처로\n시작했습니다",
+      "cards": 6
+    }
+  ],
+  "unmatched_entities": [
+    "기회이자 위기",
+    "길홍덕",
+    "농부들의 문화",
+    "다양성",
+    "밭멍",
+    "밭멍 프렌즈",
+    "사회연대경제",
+    "살림살이이종협동조합",
+    "서울시사회적경제지원센터",
+    "설계법",
+    "이정민",
+    "인성환",
+    "저는 ‘김지현",
+    "중랑구사회적경제지원센터",
+    "지역살이",
+    "파머 컬처"
+  ],
+  "resolved_accounts": [],
+  "overridden": [
+    "SIN6913",
+    "SIN6916"
+  ],
+  "linkinbio_page": "/Users/yg/소셜임팩트뉴스 인스타그램 자동화 업로드/out/index.html",
+  "warnings": [
+    "ANTHROPIC_API_KEY가 없어 폴백 요약으로 실행했습니다. 기사에 있는 사실만 커버로 끌어올리므로 모집·공모 기사 외에는 헤드라인이 기사 제목에 가깝습니다."
+  ],
+  "out_dir": "/Users/yg/소셜임팩트뉴스 인스타그램 자동화 업로드/out/run-20260730-140355",
+  "exit_code": 0
+}
