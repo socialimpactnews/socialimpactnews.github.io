@@ -1,29 +1,25 @@
 {
-  "run_id": "preflight",
+  "run_id": "run-20260730-145121",
   "status": "success",
   "mode": "dry-run",
   "source": "csv",
-  "started_at": "2026-07-30T14:50:50+09:00",
-  "collected": 5,
-  "skipped_duplicate": 2,
+  "started_at": "2026-07-30T14:51:21+09:00",
+  "collected": 3,
+  "skipped_duplicate": 0,
   "processed": 3,
   "published": 0,
   "failed": 0,
   "error": null,
   "items": [
     {
-      "article_url": "https://www.socialimpactnews.net/news/articleView.html?idxno=6916",
-      "status": "skipped_duplicate",
+      "article_url": "https://www.socialimpactnews.net/news/articleView.html?idxno=6909",
+      "status": "dry_run",
       "media_id": null,
       "permalink": null,
-      "detail": "이미 발행된 기사"
-    },
-    {
-      "article_url": "https://www.socialimpactnews.net/news/articleView.html?idxno=6913",
-      "status": "skipped_duplicate",
-      "media_id": null,
-      "permalink": null,
-      "detail": "이미 발행된 기사"
+      "detail": "카드 6장 생성, 계정 태그 0건 예정, 실제 발행 생략",
+      "title": "‘2026 대한민국 자원봉사 현황’ 발간…자원봉사 5953만 시간·경제적 가치 1조 6276억 원",
+      "headline": "자원봉사 5953만 시간,\n1조 6276억 원",
+      "cards": 6
     },
     {
       "article_url": "https://www.socialimpactnews.net/news/articleView.html?idxno=6917",
@@ -43,16 +39,6 @@
       "detail": "카드 6장 생성, 계정 태그 1건 예정, 실제 발행 생략",
       "title": "엠와이소셜컴퍼니, ‘EMA-MARINE’ 알럼나이 네트워킹 데이 개최… 해양수산 스타트업 11개 사 한자리에",
       "headline": "해양수산 스타트업\n11개 사가 모였다",
-      "cards": 6
-    },
-    {
-      "article_url": "https://www.socialimpactnews.net/news/articleView.html?idxno=6909",
-      "status": "dry_run",
-      "media_id": null,
-      "permalink": null,
-      "detail": "카드 6장 생성, 계정 태그 0건 예정, 실제 발행 생략",
-      "title": "‘2026 대한민국 자원봉사 현황’ 발간…자원봉사 5953만 시간·경제적 가치 1조 6276억 원",
-      "headline": "자원봉사 5953만 시간,\n1조 6276억 원",
       "cards": 6
     }
   ],
@@ -77,14 +63,14 @@
   ],
   "resolved_accounts": [],
   "overridden": [
+    "SIN6909",
     "SIN6917",
-    "SIN6911",
-    "SIN6909"
+    "SIN6911"
   ],
   "linkinbio_page": "/Users/yg/소셜임팩트뉴스 인스타그램 자동화 업로드/out/index.html",
   "warnings": [
     "ANTHROPIC_API_KEY가 없어 폴백 요약으로 실행했습니다. 기사에 있는 사실만 커버로 끌어올리므로 모집·공모 기사 외에는 헤드라인이 기사 제목에 가깝습니다."
   ],
-  "out_dir": "/Users/yg/소셜임팩트뉴스 인스타그램 자동화 업로드/out/preflight",
+  "out_dir": "/Users/yg/소셜임팩트뉴스 인스타그램 자동화 업로드/out/run-20260730-145121",
   "exit_code": 0
 }
