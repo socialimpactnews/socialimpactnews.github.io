@@ -892,6 +892,43 @@ class TestOverrides(PipelineTestCase):
         self.assertEqual(data["cards"][0]["title"], "손으로 쓴 커버")
 
 
+class TestForcedLineBreaks(unittest.TestCase):
+    """편집자가 지정한 줄바꿈을 조판이 지키는지."""
+
+    def _draw(self) -> Any:
+        from PIL import Image, ImageDraw
+
+        return ImageDraw.Draw(Image.new("RGB", (10, 10)))
+
+    def test_layout_keeps_explicit_breaks(self) -> None:
+        from socialcard import typeset
+        from socialcard.render import load_font
+
+        draw, font = self._draw(), load_font("bold", 84)
+        lines, _ = typeset.layout(draw, "내가 사회적경제를 안다고\n말할 수 있을까?", font, 904)
+        self.assertEqual(lines, ["내가 사회적경제를 안다고", "말할 수 있을까?"])
+
+    def test_long_segment_still_wraps(self) -> None:
+        """지정한 줄바꿈 안에서도 폭을 넘으면 어절 단위로 접힌다."""
+        from socialcard import typeset
+        from socialcard.render import load_font
+
+        draw, font = self._draw(), load_font("medium", 60)
+        text = "폐업하러 갔다가 밭에 남았다.\n고향에 돌아와 다시 적응하는 과정이었다."
+        lines, _ = typeset.layout(draw, text, font, 904)
+        self.assertEqual(lines[0], "폐업하러 갔다가 밭에 남았다.")
+        self.assertGreater(len(lines), 2, "뒷문장은 폭을 넘어 더 접혀야 한다")
+
+    def test_no_break_marker_behaves_as_before(self) -> None:
+        from socialcard import typeset
+        from socialcard.render import load_font
+
+        draw, font = self._draw(), load_font("bold", 84)
+        lines, _ = typeset.layout(draw, "농사를 사내벤처로 시작했습니다", font, 904)
+        self.assertTrue(lines)
+        self.assertNotIn("", lines)
+
+
 class TestBrokenAccountsFile(PipelineTestCase):
     """쉼표 하나로 태그 전체가 조용히 꺼지는 일이 없도록."""
 

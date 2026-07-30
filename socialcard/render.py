@@ -273,10 +273,20 @@ def render_cardnews(cardnews: CardNews, out_dir: Path, settings: Settings) -> Li
             top_limit, gap = 344, 74
             budget = RULE_Y - 52 - top_limit
             steps = ((4, 90, 3, 38), (4, 82, 2, 36), (3, 76, 2, 34), (4, 68, 2, 32), (4, 60, 2, 29))
+            # 편집자가 줄바꿈을 지정했으면 그 줄 수를 지킨다. 지정한 곳에서 끊었는데
+            # 폰트가 커서 한 줄이 더 접히면 '내가 / 사회적경제를 안다고 / 말할 수 있을까?'처럼
+            # 의도하지 않은 세 줄이 된다. 그 줄 수로 못 맞추면 원래 한도로 되돌린다.
+            forced_lines = len([p for p in card.title.split("\n") if p.strip()])
+
             for max_title_lines, title_start, max_hook_lines, hook_start in steps:
+                cap = min(max_title_lines, forced_lines) if forced_lines > 1 else max_title_lines
                 title_font, title_lines = fit_text(
-                    draw, card.title, "bold", text_width, max_title_lines, title_start, 52
+                    draw, card.title, "bold", text_width, cap, title_start, 52
                 )
+                if cap < max_title_lines and title_lines and title_lines[-1].endswith("…"):
+                    title_font, title_lines = fit_text(
+                        draw, card.title, "bold", text_width, max_title_lines, title_start, 52
+                    )
                 hook_font, hook_lines = fit_text(
                     draw, card.body, "regular", text_width, max_hook_lines, hook_start, 26
                 )
