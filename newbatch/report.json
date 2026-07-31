@@ -1,0 +1,93 @@
+{
+  "run_id": "newbatch",
+  "status": "success",
+  "mode": "dry-run",
+  "source": "csv",
+  "started_at": "2026-07-31T17:33:17+09:00",
+  "collected": 5,
+  "skipped_duplicate": 0,
+  "processed": 5,
+  "published": 0,
+  "failed": 0,
+  "error": null,
+  "items": [
+    {
+      "article_url": "https://www.socialimpactnews.net/news/articleView.html?idxno=6929",
+      "status": "dry_run",
+      "media_id": null,
+      "permalink": null,
+      "detail": "카드 5장 생성, 계정 태그 1건 예정, 실제 발행 생략",
+      "title": "“홈플러스 사태, 청년 정치인이 나섰다”…뉴웨이즈, 민주당 청년지방의원 74명과 ‘책임 있는 산업전환’ 공동행동",
+      "headline": "홈플러스 사태,\n청년 정치인이 뭉쳤다!",
+      "cards": 5
+    },
+    {
+      "article_url": "https://www.socialimpactnews.net/news/articleView.html?idxno=6920",
+      "status": "dry_run",
+      "media_id": null,
+      "permalink": null,
+      "detail": "카드 5장 생성, 계정 태그 1건 예정, 실제 발행 생략",
+      "title": "버려질 가죽이 아이들의 창작 재료로…자원·다우닝 어린이 창작 프로그램 운영",
+      "headline": "버려질 가죽이\n아이들 손에 놓였다",
+      "cards": 5
+    },
+    {
+      "article_url": "https://www.socialimpactnews.net/news/articleView.html?idxno=6926",
+      "status": "dry_run",
+      "media_id": null,
+      "permalink": null,
+      "detail": "카드 5장 생성, 계정 태그 0건 예정, 실제 발행 생략",
+      "title": "죽음과 온전히 작별할 권리, 발달장애인을 위한 그림책 엄마가 죽었을 때’ 출간",
+      "headline": "글자 없는 그림책이\n죽음을 이야기한다",
+      "cards": 5
+    },
+    {
+      "article_url": "https://www.socialimpactnews.net/news/articleView.html?idxno=6924",
+      "status": "dry_run",
+      "media_id": null,
+      "permalink": null,
+      "detail": "카드 5장 생성, 계정 태그 0건 예정, 실제 발행 생략",
+      "title": "누림센터, 발달장애인 일터 소통 돕는 AAC 상징물 ‘나의 일터 누림’ 배포",
+      "headline": "일터에서 쓰는 그림말\n50종이 공개됐다",
+      "cards": 5
+    },
+    {
+      "article_url": "https://www.socialimpactnews.net/news/articleView.html?idxno=6923",
+      "status": "dry_run",
+      "media_id": null,
+      "permalink": null,
+      "detail": "카드 5장 생성, 계정 태그 0건 예정, 실제 발행 생략",
+      "title": "“예산 가게 사장으로 5일 살아볼까”…내일마을 협동조합, 청년 지역살이 ‘오일사장’ 시작",
+      "headline": "5일 동안\n예산의 사장이 된다",
+      "cards": 5
+    }
+  ],
+  "unmatched_entities": [
+    "“홈플러스 사태",
+    "경기도장애인복지종합지원센터",
+    "그림+글자형",
+    "그림형",
+    "김영아",
+    "남찬우",
+    "누림센터",
+    "박정수",
+    "백정연",
+    "오일사장",
+    "이수영",
+    "한국"
+  ],
+  "resolved_accounts": [],
+  "overridden": [
+    "SIN6929",
+    "SIN6920",
+    "SIN6926",
+    "SIN6924",
+    "SIN6923"
+  ],
+  "linkinbio_page": "/Users/yg/소셜임팩트뉴스 인스타그램 자동화 업로드/out/index.html",
+  "warnings": [
+    "ANTHROPIC_API_KEY가 없어 폴백 요약으로 실행했습니다. 기사에 있는 사실만 커버로 끌어올리므로 모집·공모 기사 외에는 헤드라인이 기사 제목에 가깝습니다."
+  ],
+  "out_dir": "/Users/yg/소셜임팩트뉴스 인스타그램 자동화 업로드/out/newbatch",
+  "exit_code": 0
+}
