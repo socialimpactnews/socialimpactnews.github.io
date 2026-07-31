@@ -182,7 +182,11 @@ class Test01SuccessFlow(PipelineTestCase):
 
         # user_tags는 커버(첫 자식)에만 붙는다.
         self.assertIn("user_tags", sent[0])
-        self.assertEqual(json.loads(sent[0]["user_tags"]), [{"username": "cn_youth_test"}])
+        # 좌표가 빠지면 그래프 API가 error_subcode 2207063으로 거절한다.
+        tags = json.loads(sent[0]["user_tags"])
+        self.assertEqual([t["username"] for t in tags], ["cn_youth_test"])
+        for tag in tags:
+            self.assertTrue(0.0 <= tag["x"] <= 1.0 and 0.0 <= tag["y"] <= 1.0)
         for child in sent[1:5]:
             self.assertNotIn("user_tags", child)
         self.assertIn("계정 태그 1건", result.detail)

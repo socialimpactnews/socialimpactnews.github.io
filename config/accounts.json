@@ -158,6 +158,32 @@
         "권예원 소임리포터"
       ],
       "source": "운영자 확인"
+    },
+    {
+      "name": "뉴웨이즈",
+      "handle": "newways.kr",
+      "kind": "org",
+      "aliases": [
+        "뉴웨이즈(NEWWAYS)",
+        "NEWWAYS",
+        "사단법인 뉴웨이즈",
+        "뉴웨이즈(NEWWAYS)’",
+        "‘뉴웨이즈'"
+      ],
+      "source": "https://www.instagram.com/newways.kr/",
+      "note": "젊치인 에이전시. 공식 계정(팔로워 11만)."
+    },
+    {
+      "name": "자원",
+      "handle": "zaone.play",
+      "kind": "org",
+      "aliases": [
+        "자원(ZAONE)",
+        "ZAONE",
+        "사단법인 자원"
+      ],
+      "source": "https://www.instagram.com/zaone.play/",
+      "note": "휴면자원을 어린이 놀이 재료로 전환하는 비영리단체. @zaone 아님."
     }
   ]
 }

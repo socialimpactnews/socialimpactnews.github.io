@@ -178,11 +178,20 @@ class GraphPublisher(Publisher):
         raise PublishError("미디어 컨테이너가 준비되지 않았습니다(타임아웃): {}".format(creation_id))
 
     def _user_tags_param(self, cardnews: CardNews) -> Optional[str]:
-        """카드 이미지에 글자로 찍는 대신, 업로드 시 계정을 기능적으로 태그한다."""
+        """카드 이미지에 글자로 찍는 대신, 업로드 시 계정을 기능적으로 태그한다.
+
+        사진 태그는 좌표가 필수다(x/y가 없으면 error_subcode 2207063으로 거절된다).
+        좌표는 0.0~1.0의 이미지 상대 위치이고, 같은 자리에 겹치면 역시 거절되므로
+        커버 아래쪽 여백에 세로로 벌려 놓는다. 태그 위치는 화면에 보이지 않는다.
+        """
         usernames = cardnews.usernames()[:20]  # 이미지당 태그 상한
         if not usernames:
             return None
-        return json.dumps([{"username": u} for u in usernames], ensure_ascii=False)
+        tags = []
+        for i, name in enumerate(usernames):
+            # 0.62에서 시작해 0.06씩 내려가되 이미지 밖(1.0)으로는 나가지 않는다.
+            tags.append({"username": name, "x": 0.5, "y": round(min(0.62 + i * 0.06, 0.95), 2)})
+        return json.dumps(tags, ensure_ascii=False)
 
     def _create_media(self, params: Dict[str, str], user_tags: Optional[str]) -> Dict[str, str]:
         """user_tags를 붙여 컨테이너를 만들고, 태그 때문에 거절되면 태그 없이 재시도한다.
