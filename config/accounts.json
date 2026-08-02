@@ -184,6 +184,54 @@
       ],
       "source": "https://www.instagram.com/zaone.play/",
       "note": "휴면자원을 어린이 놀이 재료로 전환하는 비영리단체. @zaone 아님."
+    },
+    {
+      "name": "소소한소통",
+      "handle": "sosocommunication",
+      "kind": "org",
+      "aliases": [
+        "㈜소소한소통",
+        "소소한 소통"
+      ],
+      "source": "https://www.sosocomm.com/intro/intro",
+      "note": "발달장애인을 위한 쉬운 정보를 만드는 사회적기업. 공식 홈페이지에 걸린 계정."
+    },
+    {
+      "name": "책방 꼬마",
+      "handle": "komabookshop",
+      "kind": "org",
+      "aliases": [
+        "꼬마 KOMA",
+        "꼬마",
+        "KOMA",
+        "그림책방 꼬마",
+        "책방 꼬마 KOMA"
+      ],
+      "source": "운영자 확인",
+      "note": "서울 서대문구 홍제동 어린이 그림책방. 유니버설 디자인."
+    },
+    {
+      "name": "오늘의행동",
+      "handle": "todaygoodaction",
+      "kind": "org",
+      "aliases": [
+        "오늘의행동 사회적협동조합",
+        "사회적협동조합 오늘의행동"
+      ],
+      "source": "https://www.instagram.com/todaygoodaction/",
+      "note": "레고 브릭으로 경사로를 만드는 사회적협동조합. 홈페이지 todaygoodaction.org와 계정명이 같다."
+    },
+    {
+      "name": "더프라미스",
+      "handle": "thepromise_kr",
+      "kind": "org",
+      "aliases": [
+        "사단법인 더프라미스",
+        "더 프라미스",
+        "THE PROMISE"
+      ],
+      "source": "https://www.instagram.com/thepromise_kr/",
+      "note": "재난사회복지전문기관. UN ECOSOC 특별협의지위."
     }
   ]
 }

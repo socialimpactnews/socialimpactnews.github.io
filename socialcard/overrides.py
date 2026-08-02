@@ -24,13 +24,14 @@ from .models import CardNews
 
 log = logging.getLogger(__name__)
 
-FIELDS = ("headline", "hook", "read_more")  # 덮어쓸 문구
+FIELDS = ("headline", "hook", "read_more", "caption")  # 덮어쓸 문구
 DROP = "drop_cards"  # 빼버릴 본문 카드 번호(예: "3" 또는 "3,4")
 EXCLUDE = "exclude_tags"  # 이 기사에서만 태그하지 않을 계정(예: "mysc.official")
 # 본문 카드를 통째로 다시 쓰는 통로. '|'로 카드를 나누고, '::' 앞은 킥커(생략 가능).
 #   무슨 일이::협약을 맺었다.|핵심은::15개사를 뽑는다.
 BODY = "body_cards"
-HEADER = ("article_id", "url", "headline", "hook", "read_more", BODY, DROP, EXCLUDE)
+# 캡션은 맨 뒤에 둔다. 이미 쓰던 파일에 컬럼을 끼워 넣으면 기존 줄이 밀린다.
+HEADER = ("article_id", "url", "headline", "hook", "read_more", BODY, DROP, EXCLUDE, "caption")
 
 
 class OverrideBook:
