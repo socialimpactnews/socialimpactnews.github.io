@@ -1,0 +1,41 @@
+{
+  "run_id": "run-20260805-140206",
+  "status": "success",
+  "mode": "dry-run",
+  "source": "csv",
+  "started_at": "2026-08-05T14:02:06+09:00",
+  "collected": 1,
+  "skipped_duplicate": 0,
+  "processed": 1,
+  "published": 0,
+  "failed": 0,
+  "error": null,
+  "items": [
+    {
+      "article_url": "https://www.socialimpactnews.net/news/articleView.html?idxno=6948",
+      "status": "dry_run",
+      "media_id": null,
+      "permalink": null,
+      "detail": "카드 6장 생성, 계정 태그 1건 예정, 실제 발행 생략",
+      "title": "현대해상 후원 ‘리부트 울산’, 나눔비타민과 이주배경 아동·청소년 식사 지원 캠페인 ‘마음이 든든한끼’ 선보인다",
+      "headline": "현대해상과 나눔비타민이\n‘리부트 울산’ 프로젝트로 힘 모아",
+      "cards": 6
+    }
+  ],
+  "unmatched_entities": [
+    "리부트 울산",
+    "마음이 든든한끼",
+    "안녕 방어진",
+    "한 끼"
+  ],
+  "resolved_accounts": [],
+  "overridden": [
+    "SIN6948"
+  ],
+  "linkinbio_page": "/Users/yg/소셜임팩트뉴스 인스타그램 자동화 업로드/out/index.html",
+  "warnings": [
+    "ANTHROPIC_API_KEY가 없어 폴백 요약으로 실행했습니다. 기사에 있는 사실만 커버로 끌어올리므로 모집·공모 기사 외에는 헤드라인이 기사 제목에 가깝습니다."
+  ],
+  "out_dir": "/Users/yg/소셜임팩트뉴스 인스타그램 자동화 업로드/out/run-20260805-140206",
+  "exit_code": 0
+}
