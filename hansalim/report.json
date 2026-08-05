@@ -1,0 +1,42 @@
+{
+  "run_id": "hansalim",
+  "status": "success",
+  "mode": "dry-run",
+  "source": "csv",
+  "started_at": "2026-08-05T10:50:52+09:00",
+  "collected": 1,
+  "skipped_duplicate": 0,
+  "processed": 1,
+  "published": 0,
+  "failed": 0,
+  "error": null,
+  "items": [
+    {
+      "article_url": "https://www.socialimpactnews.net/news/articleView.html?idxno=6955",
+      "status": "dry_run",
+      "media_id": null,
+      "permalink": null,
+      "detail": "카드 7장 생성, 계정 태그 1건 예정, 실제 발행 생략",
+      "title": "청년농부 응원하는 8월…한살림 2026 ‘청년농 응원 캠페인’ 전개",
+      "headline": "조합원이 모은 돈으로\n청년농 100세대 키운다",
+      "cards": 7
+    }
+  ],
+  "unmatched_entities": [
+    "1생협-1청년농",
+    "공유물량제도",
+    "생활안정 선지급제",
+    "열린배움터",
+    "한살림소비자생활협동조합"
+  ],
+  "resolved_accounts": [],
+  "overridden": [
+    "SIN6955"
+  ],
+  "linkinbio_page": "/Users/yg/소셜임팩트뉴스 인스타그램 자동화 업로드/out/index.html",
+  "warnings": [
+    "ANTHROPIC_API_KEY가 없어 폴백 요약으로 실행했습니다. 기사에 있는 사실만 커버로 끌어올리므로 모집·공모 기사 외에는 헤드라인이 기사 제목에 가깝습니다."
+  ],
+  "out_dir": "/Users/yg/소셜임팩트뉴스 인스타그램 자동화 업로드/out/hansalim",
+  "exit_code": 0
+}
