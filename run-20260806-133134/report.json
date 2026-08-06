@@ -1,0 +1,41 @@
+{
+  "run_id": "run-20260806-133134",
+  "status": "success",
+  "mode": "dry-run",
+  "source": "csv",
+  "started_at": "2026-08-06T13:31:34+09:00",
+  "collected": 1,
+  "skipped_duplicate": 0,
+  "processed": 1,
+  "published": 0,
+  "failed": 0,
+  "error": null,
+  "items": [
+    {
+      "article_url": "https://www.socialimpactnews.net/news/articleView.html?idxno=6972",
+      "status": "dry_run",
+      "media_id": null,
+      "permalink": null,
+      "detail": "카드 7장 생성, 계정 태그 1건 예정, 실제 발행 생략",
+      "title": "일하는학교, 자립청년 바리스타가 직접 내리는 ‘핸드드립 커피 케이터링 선보인다",
+      "headline": "세상과 다시\n관계를 맺는 연습",
+      "cards": 7
+    }
+  ],
+  "unmatched_entities": [
+    "그런날",
+    "사회적협동조합",
+    "아름다운재단",
+    "이정현"
+  ],
+  "resolved_accounts": [],
+  "overridden": [
+    "SIN6972"
+  ],
+  "linkinbio_page": "/Users/yg/소셜임팩트뉴스 인스타그램 자동화 업로드/out/index.html",
+  "warnings": [
+    "ANTHROPIC_API_KEY가 없어 폴백 요약으로 실행했습니다. 기사에 있는 사실만 커버로 끌어올리므로 모집·공모 기사 외에는 헤드라인이 기사 제목에 가깝습니다."
+  ],
+  "out_dir": "/Users/yg/소셜임팩트뉴스 인스타그램 자동화 업로드/out/run-20260806-133134",
+  "exit_code": 0
+}
