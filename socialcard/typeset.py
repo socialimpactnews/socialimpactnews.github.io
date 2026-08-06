@@ -175,8 +175,16 @@ def layout(
     measure = measure_with(draw, font)
     lines: List[str] = []
     for part in str(text or "").split("\n"):
+        # 앞 공백은 지우지 않는다. 인용 부호로 시작하는 커버에서 둘째 줄을 첫 줄의
+        # 글자에 맞추려면 편집자가 넣은 들여쓰기가 살아 있어야 한다.
+        indent = part[: len(part) - len(part.lstrip(" 　"))]
         part = part.strip()
-        if part:
-            lines.extend(balance(wrap_text(part, measure, max_width)))
+        if not part:
+            continue
+        room = max_width - measure(indent) if indent else max_width
+        wrapped = balance(wrap_text(part, measure, room))
+        if indent and wrapped:
+            wrapped[0] = indent + wrapped[0]
+        lines.extend(wrapped)
     widest = max((measure(line) for line in lines), default=0.0)
     return lines, widest

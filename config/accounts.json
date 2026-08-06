@@ -232,6 +232,90 @@
       ],
       "source": "https://www.instagram.com/thepromise_kr/",
       "note": "재난사회복지전문기관. UN ECOSOC 특별협의지위."
+    },
+    {
+      "name": "한살림 청년농",
+      "handle": "hansalim_young",
+      "kind": "org",
+      "aliases": [
+        "한살림",
+        "한살림소비자생활협동조합연합회",
+        "한살림생산자연합회"
+      ],
+      "source": "기사 본문에 명시(SIN6955)",
+      "note": "한살림 청년농 공식 계정. 한살림 전체 계정이 아니므로 청년농 사업 외 기사에는 alias를 조정해야 한다."
+    },
+    {
+      "name": "다시입다연구소",
+      "handle": "wearagaincampaign",
+      "kind": "org",
+      "aliases": [
+        "사단법인 다시입다연구소",
+        "수선혁명단"
+      ],
+      "source": "기사 본문에 명시(SIN6957)",
+      "note": "지속가능한 의생활 문화를 위한 비영리단체(2022년 설립)."
+    },
+    {
+      "name": "김경목",
+      "handle": "kymogi1",
+      "kind": "person",
+      "aliases": [
+        "별따러가자",
+        "주식회사 별따러가자",
+        "김경목 공동대표"
+      ],
+      "source": "운영자 확인",
+      "note": "별따러가자 공동대표. 법인 공식 계정이 없어 대표 개인 계정으로 태그한다. 박추진 공동대표는 별도 계정."
+    },
+    {
+      "name": "김하연",
+      "handle": "haye0_ni",
+      "kind": "person",
+      "aliases": [
+        "나눔비타민",
+        "㈜나눔비타민",
+        "김하연 대표",
+        "나비얌"
+      ],
+      "source": "운영자 확인",
+      "note": "나눔비타민 대표. 법인 공식 계정 대신 대표 개인 계정으로 태그한다."
+    },
+    {
+      "name": "일하는학교",
+      "handle": "workingschool",
+      "kind": "org",
+      "aliases": [
+        "사회적협동조합 일하는학교",
+        "카페 그런날"
+      ],
+      "source": "운영자 확인",
+      "note": "위기·고립 청(소)년의 자립을 돕는 사회적협동조합."
+    },
+    {
+      "name": "아는어부",
+      "handle": "singsings_official",
+      "kind": "org",
+      "aliases": [
+        "중앙씨푸드",
+        "중앙씨푸드㈜",
+        "중앙씨푸드(주)"
+      ],
+      "source": "운영자 확인",
+      "note": "중앙씨푸드가 운영하는 제철 연안 수산물 브랜드."
+    },
+    {
+      "name": "우물가",
+      "handle": "the_wellmom",
+      "kind": "org",
+      "aliases": [
+        "우물가 The Well",
+        "The Well",
+        "엄마의 밥상",
+        "순성민"
+      ],
+      "source": "운영자 확인",
+      "note": "경기 광주 오포의 엄마 공동체. 순성민 대표가 소임리포터."
     }
   ]
 }
