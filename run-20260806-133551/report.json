@@ -1,25 +1,30 @@
 {
-  "run_id": "run-20260806-133448",
-  "status": "failed",
-  "mode": "live",
+  "run_id": "run-20260806-133551",
+  "status": "success",
+  "mode": "dry-run",
   "source": "csv",
-  "started_at": "2026-08-06T13:34:52+09:00",
+  "started_at": "2026-08-06T13:35:51+09:00",
   "collected": 1,
   "skipped_duplicate": 0,
-  "processed": 0,
+  "processed": 1,
   "published": 0,
-  "failed": 1,
-  "error": "처리된 기사가 0건입니다",
+  "failed": 0,
+  "error": null,
   "items": [
     {
       "article_url": "https://www.socialimpactnews.net/news/articleView.html?idxno=6978",
-      "status": "failed",
+      "status": "dry_run",
       "media_id": null,
       "permalink": null,
-      "detail": "publish: Graph API 오류(media): HTTP 500 {\"message\": \"An unexpected error has occurred. Please retry your request later.\", \"type\": \"OAuthException\", \"is_transient\": true, \"code\": 2, \"fbtrace_id\": \"AgorA2K4US0NIco2BIqcu05\"}"
+      "detail": "카드 7장 생성, 계정 태그 1건 예정, 실제 발행 생략",
+      "title": "아는어부, ‘대한민국 수산대전’ 참여…제철 수산물 9종 할인 판매",
+      "headline": "제철 수산물 9종\n최대 40% 할인",
+      "cards": 7
     }
   ],
-  "unmatched_entities": [],
+  "unmatched_entities": [
+    "수산대전"
+  ],
   "resolved_accounts": [],
   "overridden": [
     "SIN6978"
@@ -28,6 +33,6 @@
   "warnings": [
     "ANTHROPIC_API_KEY가 없어 폴백 요약으로 실행했습니다. 기사에 있는 사실만 커버로 끌어올리므로 모집·공모 기사 외에는 헤드라인이 기사 제목에 가깝습니다."
   ],
-  "out_dir": "/Users/yg/소셜임팩트뉴스 인스타그램 자동화 업로드/out/run-20260806-133448",
-  "exit_code": 2
+  "out_dir": "/Users/yg/소셜임팩트뉴스 인스타그램 자동화 업로드/out/run-20260806-133551",
+  "exit_code": 0
 }
