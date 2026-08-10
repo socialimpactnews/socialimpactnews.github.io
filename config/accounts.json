@@ -316,6 +316,54 @@
       ],
       "source": "운영자 확인",
       "note": "경기 광주 오포의 엄마 공동체. 순성민 대표가 소임리포터."
+    },
+    {
+      "name": "세바시",
+      "handle": "sebasi15",
+      "kind": "org",
+      "aliases": [
+        "세상을 바꾸는 시간 15분",
+        "세상을 바꾸는 시간, 15분"
+      ],
+      "source": "https://www.instagram.com/sebasi15/",
+      "note": "CBS 강연 프로그램. 바랑재 포럼 기획·제작."
+    },
+    {
+      "name": "마이오렌지",
+      "handle": "myorangeio",
+      "kind": "org",
+      "aliases": [
+        "마이오렌지(주)",
+        "오렌지 빌드",
+        "오렌지빌드",
+        "Orange Build"
+      ],
+      "source": "오렌지레터(@orangeletter_co) 소개에 'from @myorangeio'",
+      "note": "소셜섹터 특화 임팩트테크. 오렌지 빌드·오렌지레터 운영."
+    },
+    {
+      "name": "조성도",
+      "handle": "pengdo",
+      "kind": "person",
+      "aliases": [
+        "펭도",
+        "조성도 대표",
+        "마이오렌지 조성도"
+      ],
+      "source": "운영자 확인",
+      "note": "마이오렌지 대표. X·링크드인·미디엄 핸들은 pengdo로 일치하나 인스타그램은 직접 확인 못 함."
+    },
+    {
+      "name": "온기",
+      "handle": "ongi_box",
+      "kind": "org",
+      "aliases": [
+        "사단법인 온기",
+        "온기우편함",
+        "온기우체부"
+      ],
+      "source": "https://www.instagram.com/ongi_box/",
+      "note": "익명의 고민에 손편지로 답하는 비영리단체. 전국 73곳에 온기우편함 운영."
     }
   ]
 }
