@@ -1,0 +1,45 @@
+{
+  "run_id": "barang",
+  "status": "success",
+  "mode": "dry-run",
+  "source": "csv",
+  "started_at": "2026-08-07T15:14:42+09:00",
+  "collected": 1,
+  "skipped_duplicate": 0,
+  "processed": 1,
+  "published": 0,
+  "failed": 0,
+  "error": null,
+  "items": [
+    {
+      "article_url": "https://www.socialimpactnews.net/news/articleView.html?idxno=6985",
+      "status": "dry_run",
+      "media_id": null,
+      "permalink": null,
+      "detail": "카드 8장 생성, 계정 태그 1건 예정, 실제 발행 생략",
+      "title": "대체불가 대한민국, 답은 세계가 따라 쓸 ‘AI 운영체계’",
+      "headline": "세계가 따라 쓸\nAI 운영체계를 만들자",
+      "cards": 8
+    }
+  ],
+  "unmatched_entities": [
+    "국가미래전략연구위원회",
+    "대체불가 대한민국",
+    "라이나전성기재단",
+    "마지막 잎새",
+    "샤론정신건강연구소",
+    "서울대학교",
+    "앨리스",
+    "탑건: 매버릭"
+  ],
+  "resolved_accounts": [],
+  "overridden": [
+    "SIN6985"
+  ],
+  "linkinbio_page": "/Users/yg/소셜임팩트뉴스 인스타그램 자동화 업로드/out/index.html",
+  "warnings": [
+    "ANTHROPIC_API_KEY가 없어 폴백 요약으로 실행했습니다. 기사에 있는 사실만 커버로 끌어올리므로 모집·공모 기사 외에는 헤드라인이 기사 제목에 가깝습니다."
+  ],
+  "out_dir": "/Users/yg/소셜임팩트뉴스 인스타그램 자동화 업로드/out/barang",
+  "exit_code": 0
+}
