@@ -1,0 +1,41 @@
+{
+  "run_id": "run-20260810-162531",
+  "status": "success",
+  "mode": "dry-run",
+  "source": "csv",
+  "started_at": "2026-08-10T16:25:32+09:00",
+  "collected": 1,
+  "skipped_duplicate": 0,
+  "processed": 1,
+  "published": 0,
+  "failed": 0,
+  "error": null,
+  "items": [
+    {
+      "article_url": "https://www.socialimpactnews.net/news/articleView.html?idxno=6991",
+      "status": "dry_run",
+      "media_id": null,
+      "permalink": null,
+      "detail": "카드 8장 생성, 계정 태그 1건 예정, 실제 발행 생략",
+      "title": "저축에 투자까지 더한 청년들, 3명 중 2명은 “미래준비 충분하지 않아”",
+      "headline": "저축도 투자도 하는데\n충분하지 않다고 느낀다",
+      "cards": 8
+    }
+  ],
+  "unmatched_entities": [
+    "부족하다",
+    "안정저축형",
+    "원규희",
+    "혼합형"
+  ],
+  "resolved_accounts": [],
+  "overridden": [
+    "SIN6991"
+  ],
+  "linkinbio_page": "/Users/yg/소셜임팩트뉴스 인스타그램 자동화 업로드/out/index.html",
+  "warnings": [
+    "ANTHROPIC_API_KEY가 없어 폴백 요약으로 실행했습니다. 기사에 있는 사실만 커버로 끌어올리므로 모집·공모 기사 외에는 헤드라인이 기사 제목에 가깝습니다."
+  ],
+  "out_dir": "/Users/yg/소셜임팩트뉴스 인스타그램 자동화 업로드/out/run-20260810-162531",
+  "exit_code": 0
+}
