@@ -1066,3 +1066,36 @@ class TestRssParsing(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main(verbosity=2)
+
+
+class TestQuoteIndent(unittest.TestCase):
+    """인용이 다음 줄로 이어질 때만 둘째 줄부터 따옴표 폭만큼 민다."""
+
+    def _draw(self) -> Any:
+        from PIL import Image, ImageDraw
+
+        return ImageDraw.Draw(Image.new("RGB", (10, 10)))
+
+    def test_open_quote_indents_following_lines(self) -> None:
+        from socialcard.render import _quote_indent, load_font
+
+        draw, font = self._draw(), load_font("bold", 76)
+        lines = ["“다 괜찮아졌다고", "생각했어요”"]
+        # 공백 폭으로는 맞출 수 없다. 여는 큰따옴표 폭 그대로여야 글자가 세로로 맞는다.
+        self.assertAlmostEqual(
+            _quote_indent(draw, lines, font), draw.textlength("“", font=font)
+        )
+
+    def test_quote_closed_on_first_line_is_not_indented(self) -> None:
+        """‘엄마의 그림책’처럼 첫 줄에서 닫히면 인용이 아니라 낱말 표시다."""
+        from socialcard.render import _quote_indent, load_font
+
+        draw, font = self._draw(), load_font("bold", 76)
+        lines = ["‘엄마의 그림책’은", "엄마들만의 수업인 줄 알았는데"]
+        self.assertEqual(_quote_indent(draw, lines, font), 0.0)
+
+    def test_single_line_is_not_indented(self) -> None:
+        from socialcard.render import _quote_indent, load_font
+
+        draw, font = self._draw(), load_font("bold", 76)
+        self.assertEqual(_quote_indent(draw, ["“한 줄뿐입니다”"], font), 0.0)

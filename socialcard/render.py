@@ -140,6 +140,37 @@ def fit_text(
     return font, lines
 
 
+QUOTE_PAIRS = {"“": "”", "‘": "’", '"': '"', "'": "'", "「": "」", "『": "』"}
+OPENERS = tuple(QUOTE_PAIRS)
+
+
+def _quote_indent(
+    draw: ImageDraw.ImageDraw,
+    lines: Sequence[str],
+    font: ImageFont.FreeTypeFont,
+) -> float:
+    """인용이 다음 줄로 이어질 때, 둘째 줄부터 밀어 넣을 폭.
+
+    여는 따옴표만큼 밀어야 둘째 줄 첫 글자가 첫 줄 첫 글자와 세로로 맞는다.
+    공백 문자로는 맞출 수 없다. 여는 큰따옴표가 공백 1.41칸 폭이라 한 칸이면
+    왼쪽으로, 두 칸이면 오른쪽으로 밀린다. 그래서 폭을 직접 재서 쓴다.
+
+    ‘엄마의 그림책’처럼 첫 줄에서 따옴표가 닫히면 인용이 아니라 낱말 표시이므로
+    밀지 않는다. 닫혔는데도 밀면 둘째 줄부터 이유 없이 어긋난다.
+    """
+    if len(lines) < 2:
+        return 0.0
+    head = lines[0]
+    opener = head[:1]
+    if opener not in QUOTE_PAIRS:
+        return 0.0
+    closer = QUOTE_PAIRS[opener]
+    closed = head.count(opener) % 2 == 0 if opener == closer else closer in head
+    if closed:
+        return 0.0
+    return draw.textlength(opener, font=font)
+
+
 def _draw_lines(
     draw: ImageDraw.ImageDraw,
     lines: Sequence[str],
@@ -150,8 +181,11 @@ def _draw_lines(
 ) -> int:
     x, y = xy
     step = int(font.size * line_gap)
-    for line in lines:
-        draw.text((x, y), line, font=font, fill=fill)
+    indent = _quote_indent(draw, lines, font)
+    for i, line in enumerate(lines):
+        # 따옴표로 다시 시작하는 줄은 그 자체로 첫 글자가 따옴표라 밀지 않는다.
+        shift = indent if i and not line.startswith(OPENERS) else 0.0
+        draw.text((x + shift, y), line, font=font, fill=fill)
         y += step
     return y
 
