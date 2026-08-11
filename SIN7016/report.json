@@ -1,0 +1,41 @@
+{
+  "run_id": "SIN7016",
+  "status": "success",
+  "mode": "dry-run",
+  "source": "csv",
+  "started_at": "2026-08-11T13:25:04+09:00",
+  "collected": 1,
+  "skipped_duplicate": 0,
+  "processed": 1,
+  "published": 0,
+  "failed": 0,
+  "error": null,
+  "items": [
+    {
+      "article_url": "https://www.socialimpactnews.net/news/articleView.html?idxno=7016",
+      "status": "dry_run",
+      "media_id": null,
+      "permalink": null,
+      "detail": "카드 7장 생성, 계정 태그 0건 예정, 실제 발행 생략",
+      "title": "러블리페이퍼, ‘우리는 자원재생활동가입니다’ 시즌4 참가자 모집",
+      "headline": "폐지 줍는 어르신이 아니라\n‘자원재생활동가’입니다",
+      "cards": 7
+    }
+  ],
+  "unmatched_entities": [
+    "러블리페이퍼",
+    "보통 이하",
+    "사단법인",
+    "자원재생활동가"
+  ],
+  "resolved_accounts": [],
+  "overridden": [
+    "SIN7016"
+  ],
+  "linkinbio_page": "/Users/yg/소셜임팩트뉴스 인스타그램 자동화 업로드/out/index.html",
+  "warnings": [
+    "ANTHROPIC_API_KEY가 없어 폴백 요약으로 실행했습니다. 기사에 있는 사실만 커버로 끌어올리므로 모집·공모 기사 외에는 헤드라인이 기사 제목에 가깝습니다."
+  ],
+  "out_dir": "/Users/yg/소셜임팩트뉴스 인스타그램 자동화 업로드/out/SIN7016",
+  "exit_code": 0
+}
