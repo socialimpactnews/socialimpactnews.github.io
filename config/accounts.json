@@ -364,6 +364,29 @@
       ],
       "source": "https://www.instagram.com/ongi_box/",
       "note": "익명의 고민에 손편지로 답하는 비영리단체. 전국 73곳에 온기우편함 운영."
+    },
+    {
+      "name": "스타트폴리오",
+      "handle": "start_folio",
+      "kind": "org",
+      "aliases": [
+        "권우실",
+        "권우실 대표",
+        "스타트폴리오 권우실"
+      ],
+      "source": "운영자 확인",
+      "note": "국민연금공단 사내벤처 1호에서 분사한 스타트업."
+    },
+    {
+      "name": "러블리페이퍼",
+      "handle": "love_repaper",
+      "kind": "org",
+      "aliases": [
+        "사단법인 러블리페이퍼",
+        "자원재생활동가"
+      ],
+      "source": "운영자 확인",
+      "note": "폐지수거어르신을 자원재생활동가로 부르는 비영리단체."
     }
   ]
 }
