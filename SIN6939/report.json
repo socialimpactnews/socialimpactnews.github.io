@@ -1,0 +1,45 @@
+{
+  "run_id": "SIN6939",
+  "status": "success",
+  "mode": "dry-run",
+  "source": "csv",
+  "started_at": "2026-08-13T21:31:21+09:00",
+  "collected": 1,
+  "skipped_duplicate": 0,
+  "processed": 1,
+  "published": 0,
+  "failed": 0,
+  "error": null,
+  "items": [
+    {
+      "article_url": "https://www.socialimpactnews.net/news/articleView.html?idxno=6939",
+      "status": "dry_run",
+      "media_id": null,
+      "permalink": null,
+      "detail": "카드 8장 생성, 계정 태그 2건 예정, 실제 발행 생략",
+      "title": "서울에 있었다면 알지 못했을 기회들…제주에서 초고속 성장한 ‘일잘러’",
+      "headline": "“지역에 취업할 곳이\n없다는 데 동의하지 않아요”",
+      "cards": 8
+    }
+  ],
+  "unmatched_entities": [
+    "기업",
+    "나다운 삶",
+    "당연하죠",
+    "소모임",
+    "시드글로우(SeedGlow)",
+    "일잘러",
+    "정말 좋다",
+    "제주 가실래요"
+  ],
+  "resolved_accounts": [],
+  "overridden": [
+    "SIN6939"
+  ],
+  "linkinbio_page": "/Users/yg/소셜임팩트뉴스 인스타그램 자동화 업로드/out/index.html",
+  "warnings": [
+    "ANTHROPIC_API_KEY가 없어 폴백 요약으로 실행했습니다. 기사에 있는 사실만 커버로 끌어올리므로 모집·공모 기사 외에는 헤드라인이 기사 제목에 가깝습니다."
+  ],
+  "out_dir": "/Users/yg/소셜임팩트뉴스 인스타그램 자동화 업로드/out/SIN6939",
+  "exit_code": 0
+}

@@ -1,9 +1,9 @@
 {
-  "run_id": "SIN7019",
+  "run_id": "SIN7060",
   "status": "success",
   "mode": "dry-run",
   "source": "csv",
-  "started_at": "2026-08-13T21:30:07+09:00",
+  "started_at": "2026-08-13T21:31:21+09:00",
   "collected": 1,
   "skipped_duplicate": 0,
   "processed": 1,
@@ -12,28 +12,34 @@
   "error": null,
   "items": [
     {
-      "article_url": "https://www.socialimpactnews.net/news/articleView.html?idxno=7019",
+      "article_url": "https://www.socialimpactnews.net/news/articleView.html?idxno=7060",
       "status": "dry_run",
       "media_id": null,
       "permalink": null,
-      "detail": "카드 7장 생성, 계정 태그 0건 예정, 실제 발행 생략",
-      "title": "테라사이클, 재활용 어려운 생활용품 위한 ‘제로 웨이스트 박스’ 국내 출시",
-      "headline": "분리배출로는\n못 버리던 것들을 모은다",
-      "cards": 7
+      "detail": "카드 8장 생성, 계정 태그 1건 예정, 실제 발행 생략",
+      "title": "AI가 로컬을 도울 수 있을까?",
+      "headline": "질문을 뒤집어 본다\n로컬이 AI에 가르칠 것은",
+      "cards": 8
     }
   ],
   "unmatched_entities": [
-    "테라사이클",
-    "환경의 달"
+    "개인의 행복",
+    "로컬의 도전",
+    "로컬의 상상",
+    "로컬의 서사",
+    "빛과 실",
+    "소년이 온다",
+    "전남도청",
+    "한양대학교"
   ],
   "resolved_accounts": [],
   "overridden": [
-    "SIN7019"
+    "SIN7060"
   ],
   "linkinbio_page": "/Users/yg/소셜임팩트뉴스 인스타그램 자동화 업로드/out/index.html",
   "warnings": [
     "ANTHROPIC_API_KEY가 없어 폴백 요약으로 실행했습니다. 기사에 있는 사실만 커버로 끌어올리므로 모집·공모 기사 외에는 헤드라인이 기사 제목에 가깝습니다."
   ],
-  "out_dir": "/Users/yg/소셜임팩트뉴스 인스타그램 자동화 업로드/out/SIN7019",
+  "out_dir": "/Users/yg/소셜임팩트뉴스 인스타그램 자동화 업로드/out/SIN7060",
   "exit_code": 0
 }

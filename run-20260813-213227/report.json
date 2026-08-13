@@ -1,9 +1,9 @@
 {
-  "run_id": "SIN7019",
+  "run_id": "run-20260813-213227",
   "status": "success",
   "mode": "dry-run",
   "source": "csv",
-  "started_at": "2026-08-13T21:30:07+09:00",
+  "started_at": "2026-08-13T21:32:28+09:00",
   "collected": 1,
   "skipped_duplicate": 0,
   "processed": 1,
@@ -34,6 +34,6 @@
   "warnings": [
     "ANTHROPIC_API_KEY가 없어 폴백 요약으로 실행했습니다. 기사에 있는 사실만 커버로 끌어올리므로 모집·공모 기사 외에는 헤드라인이 기사 제목에 가깝습니다."
   ],
-  "out_dir": "/Users/yg/소셜임팩트뉴스 인스타그램 자동화 업로드/out/SIN7019",
+  "out_dir": "/Users/yg/소셜임팩트뉴스 인스타그램 자동화 업로드/out/run-20260813-213227",
   "exit_code": 0
 }
