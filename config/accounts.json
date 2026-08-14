@@ -387,6 +387,64 @@
       ],
       "source": "운영자 확인",
       "note": "폐지수거어르신을 자원재생활동가로 부르는 비영리단체."
+    },
+    {
+      "name": "SOVAC",
+      "handle": "sovac_official",
+      "kind": "org",
+      "aliases": [
+        "SOVAC Salon",
+        "SOVAC 2026",
+        "소백"
+      ],
+      "source": "운영자 확인",
+      "note": "소셜 밸류 커넥트. 사회적 가치 민간 플랫폼."
+    },
+    {
+      "name": "김민주",
+      "handle": "lola_minjoo",
+      "kind": "person",
+      "aliases": [
+        "김민주 대표",
+        "시드글로우",
+        "SeedGlow"
+      ],
+      "source": "운영자 확인",
+      "note": "로컬 스타트업 전문 컨설팅사 시드글로우 대표. 전 MYSC 제주 지사."
+    },
+    {
+      "name": "JYP엔터테인먼트",
+      "handle": "jypentertainment",
+      "kind": "org",
+      "aliases": [
+        "JYP",
+        "JYP Entertainment"
+      ],
+      "source": "https://www.instagram.com/jypentertainment/",
+      "note": "공식 계정. 지속가능경영팀 별도 계정은 없다."
+    },
+    {
+      "name": "우승호",
+      "handle": "dntmdgh11",
+      "kind": "person",
+      "aliases": [
+        "히어사이클",
+        "사단법인 히어사이클",
+        "우승호 대표"
+      ],
+      "source": "운영자 확인",
+      "note": "히어사이클 대표. 법인 공식 계정이 없어 대표 개인 계정으로 태그한다."
+    },
+    {
+      "name": "지구를지키는소소한행동",
+      "handle": "savingearthu",
+      "kind": "org",
+      "aliases": [
+        "지소행",
+        "지구를지키는소소한행동 사회적협동조합"
+      ],
+      "source": "운영자 확인",
+      "note": "카페 우유팩·커피박을 모아 재활용하는 사회적협동조합."
     }
   ]
 }
