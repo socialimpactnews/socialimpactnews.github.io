@@ -1,0 +1,43 @@
+{
+  "run_id": "SIN7070",
+  "status": "success",
+  "mode": "dry-run",
+  "source": "csv",
+  "started_at": "2026-08-19T08:07:06+09:00",
+  "collected": 1,
+  "skipped_duplicate": 0,
+  "processed": 1,
+  "published": 0,
+  "failed": 0,
+  "error": null,
+  "items": [
+    {
+      "article_url": "https://www.socialimpactnews.net/news/articleView.html?idxno=7070",
+      "status": "dry_run",
+      "media_id": null,
+      "permalink": null,
+      "detail": "카드 7장 생성, 계정 태그 0건 예정, 실제 발행 생략",
+      "title": "기후테크 ‘죽음의 계곡’ 어떻게 넘나…현대차 정몽구 재단, 기후금융 해법 논의",
+      "headline": "기술은 됐는데\n돈이 끊긴다",
+      "cards": 7
+    }
+  ],
+  "unmatched_entities": [
+    "과학기술정책연구원",
+    "곽상훈",
+    "국가녹색기술연구소",
+    "정무성",
+    "죽음의 계곡",
+    "한동대학교"
+  ],
+  "resolved_accounts": [],
+  "overridden": [
+    "SIN7070"
+  ],
+  "linkinbio_page": "/Users/yg/소셜임팩트뉴스 인스타그램 자동화 업로드/out/index.html",
+  "warnings": [
+    "ANTHROPIC_API_KEY가 없어 폴백 요약으로 실행했습니다. 기사에 있는 사실만 커버로 끌어올리므로 모집·공모 기사 외에는 헤드라인이 기사 제목에 가깝습니다."
+  ],
+  "out_dir": "/Users/yg/소셜임팩트뉴스 인스타그램 자동화 업로드/out/SIN7070",
+  "exit_code": 0
+}

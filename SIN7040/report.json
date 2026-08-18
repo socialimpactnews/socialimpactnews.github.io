@@ -1,0 +1,45 @@
+{
+  "run_id": "SIN7040",
+  "status": "success",
+  "mode": "dry-run",
+  "source": "csv",
+  "started_at": "2026-08-19T08:07:05+09:00",
+  "collected": 1,
+  "skipped_duplicate": 0,
+  "processed": 1,
+  "published": 0,
+  "failed": 0,
+  "error": null,
+  "items": [
+    {
+      "article_url": "https://www.socialimpactnews.net/news/articleView.html?idxno=7040",
+      "status": "dry_run",
+      "media_id": null,
+      "permalink": null,
+      "detail": "카드 7장 생성, 계정 태그 0건 예정, 실제 발행 생략",
+      "title": "[헤그타운 친구들 ①] 오르앤프로젝트가 헤이그라운드에서 만들어가는 ‘일의 본질’",
+      "headline": "“그냥 버티는 거죠”라고\n말하는 사람들을 만났다",
+      "cards": 7
+    }
+  ],
+  "unmatched_entities": [
+    "나의 일",
+    "오르앤프로젝트",
+    "우리는 누구인가",
+    "워커북(Worker Book)",
+    "일의 문제",
+    "일의 본질",
+    "일이란 무엇인가",
+    "헤그타운 친구들"
+  ],
+  "resolved_accounts": [],
+  "overridden": [
+    "SIN7040"
+  ],
+  "linkinbio_page": "/Users/yg/소셜임팩트뉴스 인스타그램 자동화 업로드/out/index.html",
+  "warnings": [
+    "ANTHROPIC_API_KEY가 없어 폴백 요약으로 실행했습니다. 기사에 있는 사실만 커버로 끌어올리므로 모집·공모 기사 외에는 헤드라인이 기사 제목에 가깝습니다."
+  ],
+  "out_dir": "/Users/yg/소셜임팩트뉴스 인스타그램 자동화 업로드/out/SIN7040",
+  "exit_code": 0
+}
