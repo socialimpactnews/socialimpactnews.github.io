@@ -1,0 +1,43 @@
+{
+  "run_id": "run-20260820-083159",
+  "status": "success",
+  "mode": "dry-run",
+  "source": "csv",
+  "started_at": "2026-08-20T08:31:59+09:00",
+  "collected": 1,
+  "skipped_duplicate": 0,
+  "processed": 1,
+  "published": 0,
+  "failed": 0,
+  "error": null,
+  "items": [
+    {
+      "article_url": "https://www.socialimpactnews.net/news/articleView.html?idxno=7116",
+      "status": "dry_run",
+      "media_id": null,
+      "permalink": null,
+      "detail": "카드 8장 생성, 계정 태그 1건 예정, 실제 발행 생략",
+      "title": "더프라미스, 베네수엘라 강진 사각지대 찾아 긴급구호·심리회복 지원",
+      "headline": "구호팀에게\n초콜릿과 아보카도를 건넸다",
+      "cards": 8
+    }
+  ],
+  "unmatched_entities": [
+    "두더지",
+    "만해대상",
+    "묘장스님",
+    "사단법인",
+    "이지스(AEGIS)",
+    "토포스(Topos)"
+  ],
+  "resolved_accounts": [],
+  "overridden": [
+    "SIN7116"
+  ],
+  "linkinbio_page": "/Users/yg/소셜임팩트뉴스 인스타그램 자동화 업로드/out/index.html",
+  "warnings": [
+    "ANTHROPIC_API_KEY가 없어 폴백 요약으로 실행했습니다. 기사에 있는 사실만 커버로 끌어올리므로 모집·공모 기사 외에는 헤드라인이 기사 제목에 가깝습니다."
+  ],
+  "out_dir": "/Users/yg/소셜임팩트뉴스 인스타그램 자동화 업로드/out/run-20260820-083159",
+  "exit_code": 0
+}
