@@ -182,9 +182,20 @@ def _draw_lines(
     x, y = xy
     step = int(font.size * line_gap)
     indent = _quote_indent(draw, lines, font)
+    opener = lines[0][0] if lines and lines[0][:1] in OPENERS else ""
     for i, line in enumerate(lines):
-        # 따옴표로 다시 시작하는 줄은 그 자체로 첫 글자가 따옴표라 밀지 않는다.
-        shift = indent if i and not line.startswith(OPENERS) else 0.0
+        shift = 0.0
+        if i and line[:1] in (" ", "\u3000"):
+            # 편집자가 앞에 공백을 넣었다면 "따옴표 뒤 글자에 맞춰라"는 뜻으로 읽는다.
+            # 공백 문자로는 맞출 수 없어서(여는 큰따옴표가 공백 1.41칸 폭이다)
+            # 공백을 걷어내고 따옴표 폭을 재서 그만큼 민다. 첫 줄이 따옴표로 시작하지
+            # 않으면 편집자가 넣은 공백을 그대로 존중한다.
+            blank = line[: len(line) - len(line.lstrip(" \u3000"))]
+            line = line.lstrip(" \u3000")
+            shift = draw.textlength(opener, font=font) if opener else draw.textlength(blank, font=font)
+        elif i and not line.startswith(OPENERS):
+            # 따옴표로 다시 시작하는 줄은 그 자체로 첫 글자가 따옴표라 밀지 않는다.
+            shift = indent
         draw.text((x + shift, y), line, font=font, fill=fill)
         y += step
     return y

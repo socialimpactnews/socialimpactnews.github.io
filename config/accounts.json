@@ -445,6 +445,51 @@
       ],
       "source": "운영자 확인",
       "note": "카페 우유팩·커피박을 모아 재활용하는 사회적협동조합."
+    },
+    {
+      "name": "282북스",
+      "handle": "282books",
+      "kind": "org",
+      "aliases": [
+        "㈜282북스",
+        "282books",
+        "강미선"
+      ],
+      "source": "운영자 확인",
+      "note": "사회적기업. 서울시 마음돌봄 페스티벌 운영."
+    },
+    {
+      "name": "희망제작소",
+      "handle": "hope_institute_official",
+      "kind": "org",
+      "aliases": [
+        "재단법인 희망제작소",
+        "소셜디자이너"
+      ],
+      "source": "운영자 확인",
+      "note": "소셜디자이너 인터뷰 시리즈를 기획·연재한다."
+    },
+    {
+      "name": "무의",
+      "handle": "wearemuui",
+      "kind": "org",
+      "aliases": [
+        "사단법인 무의",
+        "모두의 지하철"
+      ],
+      "source": "운영자 확인",
+      "note": "교통약자 이동권 비영리단체. 홍윤희 이사장."
+    },
+    {
+      "name": "홍윤희",
+      "handle": "kitcatkittyhong",
+      "kind": "person",
+      "aliases": [
+        "홍윤희 이사장",
+        "무의 홍윤희"
+      ],
+      "source": "운영자 확인",
+      "note": "사단법인 무의 이사장."
     }
   ]
 }
