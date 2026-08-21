@@ -1,0 +1,45 @@
+{
+  "run_id": "run-20260821-131552",
+  "status": "success",
+  "mode": "dry-run",
+  "source": "csv",
+  "started_at": "2026-08-21T13:15:52+09:00",
+  "collected": 1,
+  "skipped_duplicate": 0,
+  "processed": 1,
+  "published": 0,
+  "failed": 0,
+  "error": null,
+  "items": [
+    {
+      "article_url": "https://www.socialimpactnews.net/news/articleView.html?idxno=7132",
+      "status": "dry_run",
+      "media_id": null,
+      "permalink": null,
+      "detail": "카드 8장 생성, 계정 태그 2건 예정, 실제 발행 생략",
+      "title": "‘2026 모두의1층×로컬’, 대구 식당·카페에 휠체어 경사로 설치한다",
+      "headline": "계단 한 칸을\n없애는 일",
+      "cards": 8
+    }
+  ],
+  "unmatched_entities": [
+    "2026년 모두의1층×로컬",
+    "‘2026 모두의1층×로컬’",
+    "‘모두의1층×로컬",
+    "금융산업공익재단",
+    "누가 조사하는가",
+    "라며",
+    "모두의1층",
+    "사단법인"
+  ],
+  "resolved_accounts": [],
+  "overridden": [
+    "SIN7132"
+  ],
+  "linkinbio_page": "/Users/yg/소셜임팩트뉴스 인스타그램 자동화 업로드/out/index.html",
+  "warnings": [
+    "ANTHROPIC_API_KEY가 없어 폴백 요약으로 실행했습니다. 기사에 있는 사실만 커버로 끌어올리므로 모집·공모 기사 외에는 헤드라인이 기사 제목에 가깝습니다."
+  ],
+  "out_dir": "/Users/yg/소셜임팩트뉴스 인스타그램 자동화 업로드/out/run-20260821-131552",
+  "exit_code": 0
+}
