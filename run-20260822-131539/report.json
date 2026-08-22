@@ -1,0 +1,44 @@
+{
+  "run_id": "run-20260822-131539",
+  "status": "success",
+  "mode": "dry-run",
+  "source": "csv",
+  "started_at": "2026-08-22T13:15:39+09:00",
+  "collected": 1,
+  "skipped_duplicate": 0,
+  "processed": 1,
+  "published": 0,
+  "failed": 0,
+  "error": null,
+  "items": [
+    {
+      "article_url": "https://www.socialimpactnews.net/news/articleView.html?idxno=7151",
+      "status": "dry_run",
+      "media_id": null,
+      "permalink": null,
+      "detail": "카드 9장 생성, 계정 태그 2건 예정, 실제 발행 생략",
+      "title": "[편집장레터] 토사가 덮친 통영 봄날의책방, 봉숫골에 다시 봄이 오도록",
+      "headline": "토사가 덮친 통영 봄날의책방,\n봉숫골에 다시 봄이 오도록",
+      "cards": 9
+    }
+  ],
+  "unmatched_entities": [
+    "동네책방 성지",
+    "상가",
+    "이루던",
+    "일은",
+    "책꾸러미",
+    "책바다봄 꾸러미",
+    "풍수해·지진재해보험"
+  ],
+  "resolved_accounts": [],
+  "overridden": [
+    "SIN7151"
+  ],
+  "linkinbio_page": "/Users/yg/소셜임팩트뉴스 인스타그램 자동화 업로드/out/index.html",
+  "warnings": [
+    "ANTHROPIC_API_KEY가 없어 폴백 요약으로 실행했습니다. 기사에 있는 사실만 커버로 끌어올리므로 모집·공모 기사 외에는 헤드라인이 기사 제목에 가깝습니다."
+  ],
+  "out_dir": "/Users/yg/소셜임팩트뉴스 인스타그램 자동화 업로드/out/run-20260822-131539",
+  "exit_code": 0
+}
