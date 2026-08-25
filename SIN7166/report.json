@@ -1,0 +1,45 @@
+{
+  "run_id": "SIN7166",
+  "status": "success",
+  "mode": "dry-run",
+  "source": "csv",
+  "started_at": "2026-08-25T12:47:07+09:00",
+  "collected": 1,
+  "skipped_duplicate": 0,
+  "processed": 1,
+  "published": 0,
+  "failed": 0,
+  "error": null,
+  "items": [
+    {
+      "article_url": "https://www.socialimpactnews.net/news/articleView.html?idxno=7166",
+      "status": "dry_run",
+      "media_id": null,
+      "permalink": null,
+      "detail": "카드 8장 생성, 계정 태그 0건 예정, 실제 발행 생략",
+      "title": "수도권 청년 4명, 강진의 밤을 기획하다…‘아웃바운더 로컬턴 IN 강진’ 야간관광 프로젝트 종료",
+      "headline": "낮에 볼 것은 많은데\n밤에 머물 이유가 없었다",
+      "cards": 8
+    }
+  ],
+  "unmatched_entities": [
+    "로컬(Local)",
+    "로컬턴",
+    "비커넥트랩",
+    "사진산책",
+    "손끝다과상",
+    "쉬었음 청년",
+    "인턴(In+tern)",
+    "지역연구소"
+  ],
+  "resolved_accounts": [],
+  "overridden": [
+    "SIN7166"
+  ],
+  "linkinbio_page": "/Users/yg/소셜임팩트뉴스 인스타그램 자동화 업로드/out/index.html",
+  "warnings": [
+    "ANTHROPIC_API_KEY가 없어 폴백 요약으로 실행했습니다. 기사에 있는 사실만 커버로 끌어올리므로 모집·공모 기사 외에는 헤드라인이 기사 제목에 가깝습니다."
+  ],
+  "out_dir": "/Users/yg/소셜임팩트뉴스 인스타그램 자동화 업로드/out/SIN7166",
+  "exit_code": 0
+}

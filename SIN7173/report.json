@@ -1,0 +1,45 @@
+{
+  "run_id": "SIN7173",
+  "status": "success",
+  "mode": "dry-run",
+  "source": "csv",
+  "started_at": "2026-08-25T12:47:06+09:00",
+  "collected": 1,
+  "skipped_duplicate": 0,
+  "processed": 1,
+  "published": 0,
+  "failed": 0,
+  "error": null,
+  "items": [
+    {
+      "article_url": "https://www.socialimpactnews.net/news/articleView.html?idxno=7173",
+      "status": "dry_run",
+      "media_id": null,
+      "permalink": null,
+      "detail": "카드 7장 생성, 계정 태그 1건 예정, 실제 발행 생략",
+      "title": "지원 이후 무엇이 달라졌나…신라상회 1기 ‘임팩트 포트폴리오’ 공개",
+      "headline": "지원금이 닿은 뒤에는\n어떤 일이 일어날까",
+      "cards": 7
+    }
+  ],
+  "unmatched_entities": [
+    "무엇을 했는가",
+    "사단법인",
+    "사회적협동조합",
+    "산출물",
+    "성과",
+    "얼마나 했는가",
+    "이정표",
+    "임팩트 포트폴리오"
+  ],
+  "resolved_accounts": [],
+  "overridden": [
+    "SIN7173"
+  ],
+  "linkinbio_page": "/Users/yg/소셜임팩트뉴스 인스타그램 자동화 업로드/out/index.html",
+  "warnings": [
+    "ANTHROPIC_API_KEY가 없어 폴백 요약으로 실행했습니다. 기사에 있는 사실만 커버로 끌어올리므로 모집·공모 기사 외에는 헤드라인이 기사 제목에 가깝습니다."
+  ],
+  "out_dir": "/Users/yg/소셜임팩트뉴스 인스타그램 자동화 업로드/out/SIN7173",
+  "exit_code": 0
+}

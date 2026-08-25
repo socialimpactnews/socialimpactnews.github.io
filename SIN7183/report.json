@@ -1,0 +1,45 @@
+{
+  "run_id": "SIN7183",
+  "status": "success",
+  "mode": "dry-run",
+  "source": "csv",
+  "started_at": "2026-08-25T12:54:55+09:00",
+  "collected": 1,
+  "skipped_duplicate": 0,
+  "processed": 1,
+  "published": 0,
+  "failed": 0,
+  "error": null,
+  "items": [
+    {
+      "article_url": "https://www.socialimpactnews.net/news/articleView.html?idxno=7183",
+      "status": "dry_run",
+      "media_id": null,
+      "permalink": null,
+      "detail": "카드 9장 생성, 계정 태그 0건 예정, 실제 발행 생략",
+      "title": "[기고] 사회연대경제, 마침내 법적 기반을 마련하다",
+      "headline": "‘사회적경제’는 지금껏\n 법에 정의된 적이 없었다",
+      "cards": 9
+    }
+  ],
+  "unmatched_entities": [
+    "[기고] 사회연대경제",
+    "법무법인",
+    "사회",
+    "사회연대경제",
+    "사회연대경제기본법상의 사회연대경제조직",
+    "사회적경제",
+    "원내",
+    "의원이"
+  ],
+  "resolved_accounts": [],
+  "overridden": [
+    "SIN7183"
+  ],
+  "linkinbio_page": "/Users/yg/소셜임팩트뉴스 인스타그램 자동화 업로드/out/index.html",
+  "warnings": [
+    "ANTHROPIC_API_KEY가 없어 폴백 요약으로 실행했습니다. 기사에 있는 사실만 커버로 끌어올리므로 모집·공모 기사 외에는 헤드라인이 기사 제목에 가깝습니다."
+  ],
+  "out_dir": "/Users/yg/소셜임팩트뉴스 인스타그램 자동화 업로드/out/SIN7183",
+  "exit_code": 0
+}
