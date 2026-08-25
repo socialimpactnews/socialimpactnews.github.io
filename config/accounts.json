@@ -490,6 +490,27 @@
       ],
       "source": "운영자 확인",
       "note": "사단법인 무의 이사장."
+    },
+    {
+      "name": "남해의봄날",
+      "handle": "namhaebomnal",
+      "kind": "org",
+      "aliases": [
+        "정은영",
+        "강용상"
+      ],
+      "source": "운영자 확인",
+      "note": "통영 봉숫골의 출판사. 봄날의책방을 함께 운영한다."
+    },
+    {
+      "name": "봄날의책방",
+      "handle": "bomnalbookshop",
+      "kind": "org",
+      "aliases": [
+        "봉숫골 봄날의책방"
+      ],
+      "source": "운영자 확인",
+      "note": "통영 봉숫골의 동네책방. 출판사 남해의봄날과 같은 부부가 운영한다."
     }
   ]
 }
