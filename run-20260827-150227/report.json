@@ -1,34 +1,25 @@
 {
   "run_id": "run-20260827-150227",
-  "status": "success",
-  "mode": "dry-run",
+  "status": "failed",
+  "mode": "live",
   "source": "csv",
-  "started_at": "2026-08-27T15:02:27+09:00",
+  "started_at": "2026-08-27T15:02:31+09:00",
   "collected": 1,
   "skipped_duplicate": 0,
-  "processed": 1,
+  "processed": 0,
   "published": 0,
-  "failed": 0,
-  "error": null,
+  "failed": 1,
+  "error": "처리된 기사가 0건입니다",
   "items": [
     {
       "article_url": "https://www.socialimpactnews.net/news/articleView.html?idxno=7214",
-      "status": "dry_run",
+      "status": "failed",
       "media_id": null,
       "permalink": null,
-      "detail": "카드 8장 생성, 계정 태그 3건 예정, 실제 발행 생략",
-      "title": "“여기서는 업을 마음대로 정의할 수 있어요”…하동의 퍼스트 펭귄이 된 개발자와 디자이너",
-      "headline": "“여기서는 ‘업’을\n[[“여기서는 ]]마음대로 정의할 수 있어요”",
-      "cards": 8
+      "detail": "publish: Graph API 오류(media): HTTP 400 {\"message\": \"Invalid user id\", \"type\": \"OAuthException\", \"code\": 110, \"error_subcode\": 2207018, \"is_transient\": false, \"error_user_title\": \"비공개 프로필을 사용하거나 사용자 이름이 올바르지 않은 사용자를 읽어들일 수 없습니다\", \"error_user_msg\": \"다음과 같은 사용자에게 액세스할 수 없습니다: hadong__jujo\", \"fbtrace_id\": \"AEEBg5h7NsfuZTzuZonGpNl\"}"
     }
   ],
-  "unmatched_entities": [
-    "미쳤네(!)",
-    "서류 관리",
-    "싸다",
-    "일손 부족",
-    "하동 보물찾기"
-  ],
+  "unmatched_entities": [],
   "resolved_accounts": [],
   "overridden": [
     "SIN7214"
@@ -38,5 +29,5 @@
     "ANTHROPIC_API_KEY가 없어 폴백 요약으로 실행했습니다. 기사에 있는 사실만 커버로 끌어올리므로 모집·공모 기사 외에는 헤드라인이 기사 제목에 가깝습니다."
   ],
   "out_dir": "/Users/yg/소셜임팩트뉴스 인스타그램 자동화 업로드/out/run-20260827-150227",
-  "exit_code": 0
+  "exit_code": 2
 }
