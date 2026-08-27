@@ -133,6 +133,7 @@ def wrap_text(text: str, measure: Callable[[str], float], max_width: float) -> L
     return lines
 
 
+_ALIGN_MARK = re.compile(r"^\[\[(.*?)\]\]")
 _SENTENCE_TAIL = re.compile(r"(다|요)[.!?]$")
 
 
@@ -175,16 +176,22 @@ def layout(
     measure = measure_with(draw, font)
     lines: List[str] = []
     for part in str(text or "").split("\n"):
+        # [[앞말]]은 "이 앞말의 폭만큼 밀어라"는 표시다. 폭만 빌려 쓰고 글자는 그리지
+        # 않으므로, 조판에서는 떼어내고 첫 줄에 다시 붙여 render로 넘긴다.
+        marker = ""
+        m = _ALIGN_MARK.match(part)
+        if m:
+            marker, part = m.group(0), part[m.end():]
         # 앞 공백은 지우지 않는다. 인용 부호로 시작하는 커버에서 둘째 줄을 첫 줄의
         # 글자에 맞추려면 편집자가 넣은 들여쓰기가 살아 있어야 한다.
         indent = part[: len(part) - len(part.lstrip(" 　"))]
         part = part.strip()
         if not part:
             continue
-        room = max_width - measure(indent) if indent else max_width
-        wrapped = balance(wrap_text(part, measure, room))
-        if indent and wrapped:
-            wrapped[0] = indent + wrapped[0]
+        pad = measure(marker[2:-2]) if marker else (measure(indent) if indent else 0.0)
+        wrapped = balance(wrap_text(part, measure, max_width - pad))
+        if wrapped:
+            wrapped[0] = marker + indent + wrapped[0] if marker else indent + wrapped[0]
         lines.extend(wrapped)
     widest = max((measure(line) for line in lines), default=0.0)
     return lines, widest

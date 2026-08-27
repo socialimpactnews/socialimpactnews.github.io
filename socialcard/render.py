@@ -140,6 +140,9 @@ def fit_text(
     return font, lines
 
 
+import re as _re
+_ALIGN_MARK = _re.compile(r"^\[\[(.*?)\]\]")
+
 QUOTE_PAIRS = {"“": "”", "‘": "’", '"': '"', "'": "'", "「": "」", "『": "』"}
 OPENERS = tuple(QUOTE_PAIRS)
 
@@ -185,7 +188,12 @@ def _draw_lines(
     opener = lines[0][0] if lines and lines[0][:1] in OPENERS else ""
     for i, line in enumerate(lines):
         shift = 0.0
-        if i and line[:1] in (" ", "\u3000"):
+        mark = _ALIGN_MARK.match(line)
+        if mark:
+            # [[앞말]]: 그 앞말의 폭만큼 밀되 글자는 그리지 않는다.
+            shift = draw.textlength(mark.group(1), font=font)
+            line = line[mark.end():]
+        elif i and line[:1] in (" ", "\u3000"):
             # 편집자가 앞에 공백을 넣었다면 "따옴표 뒤 글자에 맞춰라"는 뜻으로 읽는다.
             # 공백 문자로는 맞출 수 없어서(여는 큰따옴표가 공백 1.41칸 폭이다)
             # 공백을 걷어내고 따옴표 폭을 재서 그만큼 민다. 첫 줄이 따옴표로 시작하지

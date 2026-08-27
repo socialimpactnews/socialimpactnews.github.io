@@ -511,6 +511,72 @@
       ],
       "source": "운영자 확인",
       "note": "통영 봉숫골의 동네책방. 출판사 남해의봄날과 같은 부부가 운영한다."
+    },
+    {
+      "name": "박희선",
+      "handle": "npo_fika",
+      "kind": "person",
+      "aliases": [
+        "박희선 소임리포터"
+      ],
+      "source": "운영자 확인",
+      "note": "소임리포터. ‘현장의 틈’ 칼럼 필자."
+    },
+    {
+      "name": "안신영",
+      "handle": "youngs_universe",
+      "kind": "person",
+      "aliases": [
+        "안신영 소임리포터",
+        "큐어링랩"
+      ],
+      "source": "운영자 확인",
+      "note": "소임리포터. 큐어링랩 대표. ‘회복의 조건’ 칼럼 필자."
+    },
+    {
+      "name": "다른파도",
+      "handle": "otherpado",
+      "kind": "org",
+      "aliases": [
+        "오히려하동",
+        "이강희",
+        "권경민"
+      ],
+      "source": "운영자 확인",
+      "note": "경남 하동의 로컬 기업. ‘오히려하동’ 운영사."
+    },
+    {
+      "name": "하동꿀배주",
+      "handle": "hadong__jujo",
+      "kind": "org",
+      "aliases": [
+        "하동 꿀배주"
+      ],
+      "source": "운영자 확인",
+      "note": "다른파도가 내놓은 술 브랜드."
+    },
+    {
+      "name": "N포럼",
+      "handle": "nforum_official",
+      "kind": "org",
+      "aliases": [
+        "엔포럼",
+        "엔스퀘어",
+        "아산프론티어아카데미"
+      ],
+      "source": "운영자 확인",
+      "note": "아산프론티어아카데미 동문회가 여는 포럼."
+    },
+    {
+      "name": "동행",
+      "handle": "lifeanalog",
+      "kind": "org",
+      "aliases": [
+        "공익활동가 사회적협동조합 동행",
+        "공익활동가사회적협동조합 동행"
+      ],
+      "source": "운영자 확인",
+      "note": "공익활동가를 지원하는 사회적협동조합."
     }
   ]
 }

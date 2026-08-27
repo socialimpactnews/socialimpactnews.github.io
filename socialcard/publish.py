@@ -39,7 +39,13 @@ def build_image_urls(cardnews: CardNews, out_root: Path, settings: Settings) -> 
     return urls
 
 
-_TAG_ERROR_HINTS = ("user_tags", "username", "tag", "not found", "태그")
+# 태그 때문에 거절됐다고 볼 만한 표현들. 비공개 계정이나 없는 사용자명을 태그하면
+# 그래프 API는 user_tags를 언급하지 않고 "Invalid user id"(subcode 2207018)만 준다.
+# 이 문구를 놓치면 태그 하나 때문에 게시물 전체가 실패한다.
+_TAG_ERROR_HINTS = (
+    "user_tags", "username", "tag", "not found", "태그",
+    "invalid user id", "2207018", "2207063", "액세스할 수 없습니다", "비공개 프로필",
+)
 
 
 def _looks_like_tag_error(message: str) -> bool:
