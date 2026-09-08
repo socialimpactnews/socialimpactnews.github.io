@@ -1,0 +1,54 @@
+{
+  "run_id": "run-20260908-095308",
+  "status": "success",
+  "mode": "dry-run",
+  "source": "csv",
+  "started_at": "2026-09-08T09:53:08+09:00",
+  "collected": 2,
+  "skipped_duplicate": 0,
+  "processed": 2,
+  "published": 0,
+  "failed": 0,
+  "error": null,
+  "items": [
+    {
+      "article_url": "https://www.socialimpactnews.net/news/articleView.html?idxno=7304",
+      "status": "dry_run",
+      "media_id": null,
+      "permalink": null,
+      "detail": "카드 7장 생성, 계정 태그 1건 예정, 실제 발행 생략",
+      "title": "“종이팩 재활용률 14%”…지소행, 서울 25개 자치구 공공선별장 실태조사 발표",
+      "headline": "종이팩 재활용률\n10년 새 26%에서 14%로",
+      "cards": 7
+    },
+    {
+      "article_url": "https://www.socialimpactnews.net/news/articleView.html?idxno=7303",
+      "status": "dry_run",
+      "media_id": null,
+      "permalink": null,
+      "detail": "카드 7장 생성, 계정 태그 1건 예정, 실제 발행 생략",
+      "title": "‘정’을 메타버스와 보드게임으로…대학생이 만든 참여형 인성교육",
+      "headline": "“정은 가족이 사랑해 주는\n마음이에요”",
+      "cards": 7
+    }
+  ],
+  "unmatched_entities": [
+    "사회적협동조합",
+    "서울시자원봉사센터",
+    "아름다운 만남",
+    "이해→표현→연결→나눔",
+    "정 나눔",
+    "정다운 릴레이"
+  ],
+  "resolved_accounts": [],
+  "overridden": [
+    "SIN7304",
+    "SIN7303"
+  ],
+  "linkinbio_page": "/Users/yg/소셜임팩트뉴스 인스타그램 자동화 업로드/out/index.html",
+  "warnings": [
+    "ANTHROPIC_API_KEY가 없어 폴백 요약으로 실행했습니다. 기사에 있는 사실만 커버로 끌어올리므로 모집·공모 기사 외에는 헤드라인이 기사 제목에 가깝습니다."
+  ],
+  "out_dir": "/Users/yg/소셜임팩트뉴스 인스타그램 자동화 업로드/out/run-20260908-095308",
+  "exit_code": 0
+}

@@ -1,0 +1,99 @@
+{
+  "run_id": "run-20260908-083933",
+  "status": "success",
+  "mode": "dry-run",
+  "source": "csv",
+  "started_at": "2026-09-08T08:39:33+09:00",
+  "collected": 5,
+  "skipped_duplicate": 0,
+  "processed": 5,
+  "published": 0,
+  "failed": 0,
+  "error": null,
+  "items": [
+    {
+      "article_url": "https://www.socialimpactnews.net/news/articleView.html?idxno=7300",
+      "status": "dry_run",
+      "media_id": null,
+      "permalink": null,
+      "detail": "카드 5장 생성, 계정 태그 0건 예정, 실제 발행 생략",
+      "title": "물건에도 오디세이가 있다면…?",
+      "headline": "물건에도 오디세이가 있다면",
+      "cards": 5
+    },
+    {
+      "article_url": "https://www.socialimpactnews.net/news/articleView.html?idxno=7304",
+      "status": "dry_run",
+      "media_id": null,
+      "permalink": null,
+      "detail": "카드 5장 생성, 계정 태그 1건 예정, 실제 발행 생략",
+      "title": "“종이팩 재활용률 14%”…지소행, 서울 25개 자치구 공공선별장 실태조사 발표",
+      "headline": "“종이팩 재활용률 14%”",
+      "cards": 5
+    },
+    {
+      "article_url": "https://www.socialimpactnews.net/news/articleView.html?idxno=7303",
+      "status": "dry_run",
+      "media_id": null,
+      "permalink": null,
+      "detail": "카드 5장 생성, 계정 태그 0건 예정, 실제 발행 생략",
+      "title": "‘정’을 메타버스와 보드게임으로…대학생이 만든 참여형 인성교육",
+      "headline": "‘정’을 메타버스와 보드게임으로",
+      "cards": 5
+    },
+    {
+      "article_url": "https://www.socialimpactnews.net/news/articleView.html?idxno=7270",
+      "status": "dry_run",
+      "media_id": null,
+      "permalink": null,
+      "detail": "카드 5장 생성, 계정 태그 1건 예정, 실제 발행 생략",
+      "title": "[회복의 조건 ②] 죽음의 죽음: 고통을 살아낸다는 것, 전혀 간단치 않은 이야기",
+      "headline": "죽음의 죽음: 고통을 살아낸다는 것, 전혀 간단치 않은 이야기",
+      "cards": 5
+    },
+    {
+      "article_url": "https://www.socialimpactnews.net/news/articleView.html?idxno=7277",
+      "status": "dry_run",
+      "media_id": null,
+      "permalink": null,
+      "detail": "카드 5장 생성, 계정 태그 1건 예정, 실제 발행 생략",
+      "title": "[우물가 사람들 ③] “값없이 나눌 수 있는 마음”…나눔으로 다시 삶의 보람을 찾다",
+      "headline": "“값없이 나눌 수 있는 마음”",
+      "cards": 5
+    }
+  ],
+  "unmatched_entities": [
+    "나눔",
+    "나에게서 끝났다",
+    "도착",
+    "디그니타",
+    "문제 해결",
+    "물류센터",
+    "받는 자",
+    "사회적협동조합",
+    "살아낼",
+    "서울시자원봉사센터",
+    "아름다운 만남",
+    "언니",
+    "오디세이",
+    "이해→표현→연결→나눔",
+    "정 나눔",
+    "정다운 릴레이",
+    "주는 사람",
+    "주는 자",
+    "죽음의 죽음",
+    "진짜 행복한 시간",
+    "측정 불가능한",
+    "홍보",
+    "회복",
+    "회복적 사법"
+  ],
+  "resolved_accounts": [],
+  "overridden": [],
+  "linkinbio_page": "/Users/yg/소셜임팩트뉴스 인스타그램 자동화 업로드/out/index.html",
+  "warnings": [
+    "ANTHROPIC_API_KEY가 없어 폴백 요약으로 실행했습니다. 기사에 있는 사실만 커버로 끌어올리므로 모집·공모 기사 외에는 헤드라인이 기사 제목에 가깝습니다."
+  ],
+  "out_dir": "/Users/yg/소셜임팩트뉴스 인스타그램 자동화 업로드/out/run-20260908-083933",
+  "exit_code": 0
+}
