@@ -1,0 +1,43 @@
+{
+  "run_id": "run-20260908-095713",
+  "status": "success",
+  "mode": "dry-run",
+  "source": "csv",
+  "started_at": "2026-09-08T09:57:13+09:00",
+  "collected": 1,
+  "skipped_duplicate": 0,
+  "processed": 1,
+  "published": 0,
+  "failed": 0,
+  "error": null,
+  "items": [
+    {
+      "article_url": "https://www.socialimpactnews.net/news/articleView.html?idxno=7277",
+      "status": "dry_run",
+      "media_id": null,
+      "permalink": null,
+      "detail": "카드 7장 생성, 계정 태그 1건 예정, 실제 발행 생략",
+      "title": "[우물가 사람들 ③] “값없이 나눌 수 있는 마음”…나눔으로 다시 삶의 보람을 찾다",
+      "headline": "“이해타산적으로 따지기 시작하면\n나눔이 아니라고 생각해요”",
+      "cards": 7
+    }
+  ],
+  "unmatched_entities": [
+    "나눔",
+    "받는 자",
+    "언니",
+    "주는 사람",
+    "주는 자",
+    "진짜 행복한 시간"
+  ],
+  "resolved_accounts": [],
+  "overridden": [
+    "SIN7277"
+  ],
+  "linkinbio_page": "/Users/yg/소셜임팩트뉴스 인스타그램 자동화 업로드/out/index.html",
+  "warnings": [
+    "ANTHROPIC_API_KEY가 없어 폴백 요약으로 실행했습니다. 기사에 있는 사실만 커버로 끌어올리므로 모집·공모 기사 외에는 헤드라인이 기사 제목에 가깝습니다."
+  ],
+  "out_dir": "/Users/yg/소셜임팩트뉴스 인스타그램 자동화 업로드/out/run-20260908-095713",
+  "exit_code": 0
+}
