@@ -1,0 +1,45 @@
+{
+  "run_id": "run-20260922-092317",
+  "status": "success",
+  "mode": "dry-run",
+  "source": "csv",
+  "started_at": "2026-09-22T09:23:18+09:00",
+  "collected": 1,
+  "skipped_duplicate": 0,
+  "processed": 1,
+  "published": 0,
+  "failed": 0,
+  "error": null,
+  "items": [
+    {
+      "article_url": "https://www.socialimpactnews.net/news/articleView.html?idxno=7443",
+      "status": "dry_run",
+      "media_id": null,
+      "permalink": null,
+      "detail": "카드 9장 생성, 계정 태그 0건 예정, 실제 발행 생략",
+      "title": "[현장] 소속이 없어도 괜찮아…‘내 일’을 만드는 사람들의 박람회",
+      "headline": "소속이 없어도\n괜찮다",
+      "cards": 9
+    }
+  ],
+  "unmatched_entities": [
+    "고독일지",
+    "고민수거함",
+    "고민의 순간",
+    "과도기 박람회",
+    "론리마켓",
+    "블루버드씨",
+    "서울청년센터",
+    "어쩌다봄"
+  ],
+  "resolved_accounts": [],
+  "overridden": [
+    "SIN7443"
+  ],
+  "linkinbio_page": "/Users/yg/소셜임팩트뉴스 인스타그램 자동화 업로드/out/index.html",
+  "warnings": [
+    "ANTHROPIC_API_KEY가 없어 폴백 요약으로 실행했습니다. 기사에 있는 사실만 커버로 끌어올리므로 모집·공모 기사 외에는 헤드라인이 기사 제목에 가깝습니다."
+  ],
+  "out_dir": "/Users/yg/소셜임팩트뉴스 인스타그램 자동화 업로드/out/run-20260922-092317",
+  "exit_code": 0
+}
