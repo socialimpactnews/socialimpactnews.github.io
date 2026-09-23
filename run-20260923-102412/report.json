@@ -1,0 +1,44 @@
+{
+  "run_id": "run-20260923-102412",
+  "status": "success",
+  "mode": "dry-run",
+  "source": "csv",
+  "started_at": "2026-09-23T10:24:12+09:00",
+  "collected": 1,
+  "skipped_duplicate": 0,
+  "processed": 1,
+  "published": 0,
+  "failed": 0,
+  "error": null,
+  "items": [
+    {
+      "article_url": "https://www.socialimpactnews.net/news/articleView.html?idxno=7464",
+      "status": "dry_run",
+      "media_id": null,
+      "permalink": null,
+      "detail": "카드 9장 생성, 계정 태그 2건 예정, 실제 발행 생략",
+      "title": "[편집장레터] SOVAC 2026, 소임뉴 세 번째 생일파티를 마치며",
+      "headline": "생존은 이 생태계의\n가장 정직한 성과 지표다",
+      "cards": 9
+    }
+  ],
+  "unmatched_entities": [
+    "2024년 기업생멸행정통계(잠정)",
+    "3년을 버텼다",
+    "개발원조위원회",
+    "국제임팩트투자네트워크",
+    "데스밸리",
+    "생존 신고",
+    "한국언론진흥재단"
+  ],
+  "resolved_accounts": [],
+  "overridden": [
+    "SIN7464"
+  ],
+  "linkinbio_page": "/Users/yg/소셜임팩트뉴스 인스타그램 자동화 업로드/out/index.html",
+  "warnings": [
+    "ANTHROPIC_API_KEY가 없어 폴백 요약으로 실행했습니다. 기사에 있는 사실만 커버로 끌어올리므로 모집·공모 기사 외에는 헤드라인이 기사 제목에 가깝습니다."
+  ],
+  "out_dir": "/Users/yg/소셜임팩트뉴스 인스타그램 자동화 업로드/out/run-20260923-102412",
+  "exit_code": 0
+}
