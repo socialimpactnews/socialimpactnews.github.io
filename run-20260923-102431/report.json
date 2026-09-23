@@ -1,0 +1,42 @@
+{
+  "run_id": "run-20260923-102431",
+  "status": "success",
+  "mode": "dry-run",
+  "source": "csv",
+  "started_at": "2026-09-23T10:24:31+09:00",
+  "collected": 1,
+  "skipped_duplicate": 0,
+  "processed": 1,
+  "published": 0,
+  "failed": 0,
+  "error": null,
+  "items": [
+    {
+      "article_url": "https://www.socialimpactnews.net/news/articleView.html?idxno=7467",
+      "status": "dry_run",
+      "media_id": null,
+      "permalink": null,
+      "detail": "카드 8장 생성, 계정 태그 2건 예정, 실제 발행 생략",
+      "title": "재난을 버티는 힘은 ‘동네’에 있다…더프라미스, 로컬 기반 재난복지 해법 제시",
+      "headline": "재난을 버티는 힘은\n‘동네’에 있다",
+      "cards": 8
+    }
+  ],
+  "unmatched_entities": [
+    "대구광역시자원봉사센터",
+    "묘장",
+    "신용카드사회공헌재단",
+    "용인대학교",
+    "이은자"
+  ],
+  "resolved_accounts": [],
+  "overridden": [
+    "SIN7467"
+  ],
+  "linkinbio_page": "/Users/yg/소셜임팩트뉴스 인스타그램 자동화 업로드/out/index.html",
+  "warnings": [
+    "ANTHROPIC_API_KEY가 없어 폴백 요약으로 실행했습니다. 기사에 있는 사실만 커버로 끌어올리므로 모집·공모 기사 외에는 헤드라인이 기사 제목에 가깝습니다."
+  ],
+  "out_dir": "/Users/yg/소셜임팩트뉴스 인스타그램 자동화 업로드/out/run-20260923-102431",
+  "exit_code": 0
+}
