@@ -1,0 +1,45 @@
+{
+  "run_id": "run-20260923-102151",
+  "status": "success",
+  "mode": "dry-run",
+  "source": "csv",
+  "started_at": "2026-09-23T10:21:51+09:00",
+  "collected": 1,
+  "skipped_duplicate": 0,
+  "processed": 1,
+  "published": 0,
+  "failed": 0,
+  "error": null,
+  "items": [
+    {
+      "article_url": "https://www.socialimpactnews.net/news/articleView.html?idxno=7444",
+      "status": "dry_run",
+      "media_id": null,
+      "permalink": null,
+      "detail": "카드 9장 생성, 계정 태그 2건 예정, 실제 발행 생략",
+      "title": "[현장] 오감으로 만지고, 그리고, 맛본 어린이들의 ‘계절 탐험’",
+      "headline": "우린, 계절을\n오감으로 느낀다",
+      "cards": 9
+    }
+  ],
+  "unmatched_entities": [
+    "가을 맛",
+    "계절 탐험대",
+    "나만의 샌드위치",
+    "돌이 딱딱했어요",
+    "마법 물감",
+    "맛있다",
+    "바위가 반짝반짝했어요",
+    "아기 무화과"
+  ],
+  "resolved_accounts": [],
+  "overridden": [
+    "SIN7444"
+  ],
+  "linkinbio_page": "/Users/yg/소셜임팩트뉴스 인스타그램 자동화 업로드/out/index.html",
+  "warnings": [
+    "ANTHROPIC_API_KEY가 없어 폴백 요약으로 실행했습니다. 기사에 있는 사실만 커버로 끌어올리므로 모집·공모 기사 외에는 헤드라인이 기사 제목에 가깝습니다."
+  ],
+  "out_dir": "/Users/yg/소셜임팩트뉴스 인스타그램 자동화 업로드/out/run-20260923-102151",
+  "exit_code": 0
+}
